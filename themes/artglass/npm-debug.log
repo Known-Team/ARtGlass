@@ -1,0 +1,1441 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'bootstrap' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 warn package.json copy-descriptor@0.1.1 No README data
+5 warn package.json cwd@0.10.0 No README data
+6 warn package.json expand-tilde@1.2.2 No README data
+7 warn package.json find-pkg@0.1.2 No README data
+8 warn package.json get-value@2.0.6 No README data
+9 warn package.json jest-config@25.5.4 No description
+10 warn package.json jest-config@25.5.4 No README data
+11 warn package.json jest-environment-jsdom@25.5.0 No description
+12 warn package.json jest-environment-jsdom@25.5.0 No README data
+13 warn package.json jest-environment-node@25.5.0 No description
+14 warn package.json jest-environment-node@25.5.0 No README data
+15 warn package.json jest-get-type@25.2.6 No README data
+16 warn package.json jest-haste-map@25.5.1 No description
+17 warn package.json jest-haste-map@25.5.1 No README data
+18 warn package.json jest-jasmine2@25.5.4 No description
+19 warn package.json jest-jasmine2@25.5.4 No README data
+20 warn package.json jest-matcher-utils@25.5.0 No README data
+21 warn package.json jest-message-util@25.5.0 No description
+22 warn package.json jest-message-util@25.5.0 No README data
+23 warn package.json jest-regex-util@25.2.6 No description
+24 warn package.json jest-regex-util@25.2.6 No README data
+25 warn package.json jest-resolve@25.5.1 No description
+26 warn package.json jest-resolve@25.5.1 No README data
+27 warn package.json jest-resolve-dependencies@25.5.4 No description
+28 warn package.json jest-resolve-dependencies@25.5.4 No README data
+29 warn package.json jest-runner@25.5.4 No description
+30 warn package.json jest-runner@25.5.4 No README data
+31 warn package.json jest-runtime@25.5.4 No description
+32 warn package.json jest-runtime@25.5.4 No README data
+33 warn package.json jest-snapshot@25.5.1 No description
+34 warn package.json jest-snapshot@25.5.1 No README data
+35 warn package.json jest-util@25.5.0 No description
+36 warn package.json jest-util@25.5.0 No README data
+37 warn package.json jest-watcher@25.5.0 No README data
+38 warn package.json object-copy@0.1.0 No README data
+39 warn package.json setimmediate@1.0.5 No README data
+40 warn package.json static-extend@0.1.2 No README data
+41 warn package.json @babel/compat-data@7.9.6 No description
+42 warn package.json @babel/compat-data@7.9.6 No README data
+43 warn package.json @babel/helper-builder-react-jsx-experimental@7.9.5 No README data
+44 warn package.json @babel/helper-compilation-targets@7.9.6 No README data
+45 warn package.json @babel/plugin-transform-react-jsx-development@7.9.0 No README data
+46 warn package.json @jest/console@25.5.0 No description
+47 warn package.json @jest/console@25.5.0 No README data
+48 warn package.json @jest/fake-timers@25.5.0 No description
+49 warn package.json @jest/fake-timers@25.5.0 No README data
+50 warn package.json @jest/environment@25.5.0 No description
+51 warn package.json @jest/environment@25.5.0 No README data
+52 warn package.json @jest/globals@25.5.2 No description
+53 warn package.json @jest/globals@25.5.2 No README data
+54 warn package.json @jest/reporters@25.5.1 No README data
+55 warn package.json @jest/source-map@25.5.0 No description
+56 warn package.json @jest/source-map@25.5.0 No README data
+57 warn package.json @jest/test-result@25.5.0 No description
+58 warn package.json @jest/test-result@25.5.0 No README data
+59 warn package.json @jest/test-sequencer@25.5.4 No description
+60 warn package.json @jest/test-sequencer@25.5.4 No README data
+61 warn package.json @jest/transform@25.5.1 No description
+62 warn package.json @jest/transform@25.5.1 No README data
+63 warn package.json @jest/types@25.5.0 No description
+64 warn package.json @jest/types@25.5.0 No README data
+65 warn package.json @webassemblyjs/helper-api-error@1.9.0 No repository field.
+66 warn package.json @webassemblyjs/helper-api-error@1.9.0 No README data
+67 warn package.json @webassemblyjs/helper-buffer@1.9.0 No README data
+68 warn package.json @webassemblyjs/helper-code-frame@1.9.0 No description
+69 warn package.json @webassemblyjs/helper-code-frame@1.9.0 No README data
+70 warn package.json @webassemblyjs/helper-fsm@1.9.0 No repository field.
+71 warn package.json @webassemblyjs/helper-fsm@1.9.0 No README data
+72 warn package.json @webassemblyjs/helper-module-context@1.9.0 No description
+73 warn package.json @webassemblyjs/helper-module-context@1.9.0 No README data
+74 warn package.json @webassemblyjs/helper-wasm-bytecode@1.9.0 No README data
+75 warn package.json @webassemblyjs/ieee754@1.9.0 No repository field.
+76 warn package.json @webassemblyjs/ieee754@1.9.0 No README data
+77 warn package.json @webassemblyjs/helper-wasm-section@1.9.0 No description
+78 warn package.json @webassemblyjs/helper-wasm-section@1.9.0 No README data
+79 warn package.json @webassemblyjs/leb128@1.9.0 No repository field.
+80 warn package.json @webassemblyjs/leb128@1.9.0 No README data
+81 warn package.json @webassemblyjs/utf8@1.9.0 No README data
+82 warn package.json @webassemblyjs/wasm-gen@1.9.0 No README data
+83 warn package.json @webassemblyjs/wasm-opt@1.9.0 No description
+84 warn package.json @webassemblyjs/wasm-opt@1.9.0 No README data
+85 warn package.json assert@1.5.0 assert is also the name of a node core module.
+86 warn package.json buffer@4.9.2 buffer is also the name of a node core module.
+87 warn package.json events@3.1.0 events is also the name of a node core module.
+88 warn package.json gensync@1.0.0-beta.1 No repository field.
+89 warn package.json postcss-resolve-nested-selector@0.1.1 No repository field.
+90 warn package.json punycode@2.1.1 punycode is also the name of a node core module.
+91 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+92 warn package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+93 warn package.json trim@0.0.1 No repository field.
+94 warn package.json url@0.11.0 url is also the name of a node core module.
+95 warn package.json util@0.11.1 util is also the name of a node core module.
+96 warn package.json @babel/preset-modules@0.1.3 No repository field.
+97 silly cache add args [ 'bootstrap', null ]
+98 verbose cache add spec bootstrap
+99 silly cache add parsed spec { raw: 'bootstrap',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'bootstrap',
+99 silly cache add   rawSpec: '',
+99 silly cache add   spec: '*',
+99 silly cache add   type: 'range' }
+100 verbose addNamed bootstrap@*
+101 silly addNamed semver.valid null
+102 silly addNamed semver.validRange *
+103 silly addNameRange { name: 'bootstrap', range: '*', hasData: false }
+104 silly mapToRegistry name bootstrap
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+108 verbose addNameRange registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+109 verbose request uri https://registry.npmjs.org/bootstrap
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 1:36:32 PM
+112 verbose request id 869125ef03ba3d7e
+113 verbose etag W/"6b4c969f400d720dfc446dc93fa8902d"
+114 verbose lastModified Wed, 05 Feb 2020 08:21:22 GMT
+115 http request GET https://registry.npmjs.org/bootstrap
+116 http 200 https://registry.npmjs.org/bootstrap
+117 silly get cb [ 200,
+117 silly get   { date: 'Tue, 01 Sep 2020 17:36:36 GMT',
+117 silly get     'content-type': 'application/json',
+117 silly get     'transfer-encoding': 'chunked',
+117 silly get     connection: 'keep-alive',
+117 silly get     'set-cookie': [ '__cfduid=d68f72575623d76a58495b594e0318a1e1598981796; expires=Thu, 01-Oct-20 17:36:36 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+117 silly get     'cf-ray': '5cc0c1246a4de0e2-IAD',
+117 silly get     age: '4274',
+117 silly get     'cache-control': 'public, max-age=300',
+117 silly get     etag: 'W/"30aa9e80bd4ef453341cbecdb15a710e"',
+117 silly get     'last-modified': 'Thu, 06 Aug 2020 16:27:24 GMT',
+117 silly get     vary: 'accept-encoding, accept',
+117 silly get     'cf-cache-status': 'HIT',
+117 silly get     'cf-request-id': '04ec570ac50000e0e243bdd200000001',
+117 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+117 silly get     server: 'cloudflare',
+117 silly get     'content-encoding': 'gzip' } ]
+118 verbose get saving bootstrap to /Users/workstationthree/.npm/registry.npmjs.org/bootstrap/.cache.json
+119 silly addNameRange number 2 { name: 'bootstrap', range: '*', hasData: true }
+120 silly addNameRange versions [ 'bootstrap',
+120 silly addNameRange   [ '0.0.1',
+120 silly addNameRange     '0.0.2',
+120 silly addNameRange     '3.1.1',
+120 silly addNameRange     '3.2.0',
+120 silly addNameRange     '3.3.0',
+120 silly addNameRange     '3.3.1',
+120 silly addNameRange     '3.3.2',
+120 silly addNameRange     '3.3.4',
+120 silly addNameRange     '3.3.5',
+120 silly addNameRange     '3.3.6',
+120 silly addNameRange     '4.0.0-alpha.2',
+120 silly addNameRange     '3.3.7',
+120 silly addNameRange     '4.0.0-alpha.3',
+120 silly addNameRange     '4.0.0-alpha.4',
+120 silly addNameRange     '4.0.0-alpha.5',
+120 silly addNameRange     '4.0.0-alpha.6',
+120 silly addNameRange     '4.0.0-beta',
+120 silly addNameRange     '4.0.0-beta.2',
+120 silly addNameRange     '4.0.0-beta.3',
+120 silly addNameRange     '4.0.0',
+120 silly addNameRange     '4.1.0',
+120 silly addNameRange     '4.1.1',
+120 silly addNameRange     '4.1.2',
+120 silly addNameRange     '4.1.3',
+120 silly addNameRange     '3.4.0',
+120 silly addNameRange     '4.2.1',
+120 silly addNameRange     '4.3.0',
+120 silly addNameRange     '3.4.1',
+120 silly addNameRange     '4.3.1',
+120 silly addNameRange     '4.4.0',
+120 silly addNameRange     '4.4.1',
+120 silly addNameRange     '4.5.0',
+120 silly addNameRange     '5.0.0-alpha1',
+120 silly addNameRange     '4.5.1',
+120 silly addNameRange     '4.5.2' ] ]
+121 verbose addNamed bootstrap@4.5.2
+122 silly addNamed semver.valid 4.5.2
+123 silly addNamed semver.validRange 4.5.2
+124 silly mapToRegistry name bootstrap
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+128 verbose addRemoteTarball https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz not in flight; adding
+129 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz',
+129 verbose addRemoteTarball   'a85c4eda59155f0d71186b6e6ad9b875813779ab' ]
+130 info retry fetch attempt 1 at 1:36:32 PM
+131 info attempt registry request try #1 at 1:36:32 PM
+132 http fetch GET https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz
+133 http fetch 200 https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz
+134 silly fetchAndShaCheck shasum a85c4eda59155f0d71186b6e6ad9b875813779ab
+135 verbose addTmpTarball /var/folders/8s/sn_fq9zj6_9b2rrhrtx1h19c0000gs/T/npm-51488-c0dbf499/registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz not in flight; adding
+136 verbose addTmpTarball already have metadata; skipping unpack for bootstrap@4.5.2
+137 silly cache afterAdd bootstrap@4.5.2
+138 verbose afterAdd /Users/workstationthree/.npm/bootstrap/4.5.2/package/package.json not in flight; writing
+139 verbose afterAdd /Users/workstationthree/.npm/bootstrap/4.5.2/package/package.json written
+140 silly install resolved [ { name: 'bootstrap',
+140 silly install resolved     description: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+140 silly install resolved     version: '4.5.2',
+140 silly install resolved     version_short: '4.5',
+140 silly install resolved     keywords:
+140 silly install resolved      [ 'css',
+140 silly install resolved        'sass',
+140 silly install resolved        'mobile-first',
+140 silly install resolved        'responsive',
+140 silly install resolved        'front-end',
+140 silly install resolved        'framework',
+140 silly install resolved        'web' ],
+140 silly install resolved     homepage: 'https://getbootstrap.com/',
+140 silly install resolved     author:
+140 silly install resolved      { name: 'The Bootstrap Authors',
+140 silly install resolved        url: 'https://github.com/twbs/bootstrap/graphs/contributors' },
+140 silly install resolved     contributors: [ [Object] ],
+140 silly install resolved     scripts:
+140 silly install resolved      { start: 'npm-run-all --parallel watch docs-serve',
+140 silly install resolved        bundlewatch: 'bundlewatch --config .bundlewatch.config.json',
+140 silly install resolved        css: 'npm-run-all css-compile css-prefix css-minify css-copy',
+140 silly install resolved        'css-copy': 'cross-env-shell shx mkdir -p site/docs/$npm_package_version_short/dist/ && cross-env-shell shx cp -r dist/css/ site/docs/$npm_package_version_short/dist/',
+140 silly install resolved        'css-main': 'npm-run-all css-lint css-compile-main css-prefix-main css-minify-main css-copy',
+140 silly install resolved        'css-docs': 'npm-run-all css-compile-docs css-prefix-docs css-minify-docs',
+140 silly install resolved        'css-compile': 'npm-run-all --parallel css-compile-*',
+140 silly install resolved        'css-compile-main': 'node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/ && npm run css-copy',
+140 silly install resolved        'css-compile-docs': 'cross-env-shell node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 site/docs/$npm_package_version_short/assets/scss/docs.scss site/docs/$npm_package_version_short/assets/css/docs.min.css',
+140 silly install resolved        'css-lint': 'npm-run-all --continue-on-error --parallel css-lint-*',
+140 silly install resolved        'css-lint-main': 'stylelint "scss/**/*.scss" --cache --cache-location .cache/.stylelintcache',
+140 silly install resolved        'css-lint-docs': 'stylelint "site/docs/**/assets/scss/*.scss" "site/docs/**/*.css" --cache --cache-location .cache/.stylelintcache',
+140 silly install resolved        'css-lint-vars': 'fusv scss/ site/docs/',
+140 silly install resolved        'css-minify': 'npm-run-all --parallel css-minify-*',
+140 silly install resolved        'css-minify-main': 'cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css',
+140 silly install resolved        'css-minify-docs': 'cross-env-shell cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output site/docs/$npm_package_version_short/assets/css/docs.min.css site/docs/$npm_package_version_short/assets/css/docs.min.css',
+140 silly install resolved        'css-prefix': 'npm-run-all --parallel css-prefix-*',
+140 silly install resolved        'css-prefix-main': 'postcss --config build/postcss.config.js --replace "dist/css/*.css" "!dist/css/*.min.css"',
+140 silly install resolved        'css-prefix-docs': 'postcss --config build/postcss.config.js --replace "site/docs/**/*.css"',
+140 silly install resolved        js: 'npm-run-all js-compile js-minify js-copy',
+140 silly install resolved        'js-copy': 'cross-env-shell shx mkdir -p site/docs/$npm_package_version_short/dist/ && cross-env-shell shx cp -r dist/js/ site/docs/$npm_package_version_short/dist/',
+140 silly install resolved        'js-main': 'npm-run-all js-lint js-compile js-minify-main',
+140 silly install resolved        'js-docs': 'npm-run-all js-lint-docs js-minify-docs',
+140 silly install resolved        'js-compile': 'npm-run-all --parallel js-compile-* --sequential js-copy',
+140 silly install resolved        'js-compile-standalone': 'rollup --environment BUNDLE:false --config build/rollup.config.js --sourcemap',
+140 silly install resolved        'js-compile-bundle': 'rollup --environment BUNDLE:true --config build/rollup.config.js --sourcemap',
+140 silly install resolved        'js-compile-plugins': 'node build/build-plugins.js',
+140 silly install resolved        'js-compile-plugins-coverage': 'cross-env NODE_ENV=test node build/build-plugins.js',
+140 silly install resolved        'js-lint': 'npm-run-all --continue-on-error --parallel js-lint-*',
+140 silly install resolved        'js-lint-main': 'eslint --report-unused-disable-directives --cache --cache-location .cache/.eslintcache js/src js/tests build/',
+140 silly install resolved        'js-lint-docs': 'eslint --report-unused-disable-directives --cache --cache-location .cache/.eslintcache site/',
+140 silly install resolved        'js-minify': 'npm-run-all --parallel js-minify-main js-minify-docs',
+140 silly install resolved        'js-minify-main': 'npm-run-all js-minify-standalone js-minify-bundle',
+140 silly install resolved        'js-minify-standalone': 'terser --compress typeofs=false --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.js.map,includeSources,url=bootstrap.min.js.map" --output dist/js/bootstrap.min.js dist/js/bootstrap.js',
+140 silly install resolved        'js-minify-bundle': 'terser --compress typeofs=false --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.bundle.js.map,includeSources,url=bootstrap.bundle.min.js.map" --output dist/js/bootstrap.bundle.min.js dist/js/bootstrap.bundle.js',
+140 silly install resolved        'js-minify-docs': 'cross-env-shell terser --mangle --comments \\"/^!/\\" --output site/docs/$npm_package_version_short/assets/js/docs.min.js site/docs/$npm_package_version_short/assets/js/vendor/anchor.min.js site/docs/$npm_package_version_short/assets/js/vendor/clipboard.min.js site/docs/$npm_package_version_short/assets/js/vendor/bs-custom-file-input.min.js "site/docs/$npm_package_version_short/assets/js/src/*.js"',
+140 silly install resolved        'js-test': 'npm-run-all js-test-karma* js-test-integration',
+140 silly install resolved        'js-test-karma': 'karma start js/tests/karma.conf.js',
+140 silly install resolved        'js-test-karma-old': 'cross-env USE_OLD_JQUERY=true npm run js-test-karma',
+140 silly install resolved        'js-test-karma-bundle': 'cross-env BUNDLE=true npm run js-test-karma',
+140 silly install resolved        'js-test-karma-bundle-old': 'cross-env BUNDLE=true USE_OLD_JQUERY=true npm run js-test-karma',
+140 silly install resolved        'js-test-integration': 'rollup --config js/tests/integration/rollup.bundle.js',
+140 silly install resolved        'js-test-cloud': 'cross-env BROWSER=true npm run js-test-karma',
+140 silly install resolved        lint: 'npm-run-all --parallel js-lint css-lint lockfile-lint',
+140 silly install resolved        docs: 'npm-run-all css-docs js-docs docs-build docs-lint',
+140 silly install resolved        'docs-build': 'bundle exec jekyll build',
+140 silly install resolved        'docs-compile': 'npm run docs-build',
+140 silly install resolved        'docs-production': 'cross-env JEKYLL_ENV=production npm run docs-build',
+140 silly install resolved        'docs-netlify': 'cross-env JEKYLL_ENV=netlify npm run docs-build',
+140 silly install resolved        'docs-linkinator': 'linkinator _gh_pages --recurse --silent --skip "^(?!http://localhost)"',
+140 silly install resolved        'docs-vnu': 'node build/vnu-jar.js',
+140 silly install resolved        'docs-lint': 'npm-run-all --parallel docs-vnu docs-linkinator',
+140 silly install resolved        'docs-serve': 'bundle exec jekyll serve',
+140 silly install resolved        'docs-serve-only': 'npm run docs-serve -- --skip-initial-build --no-watch',
+140 silly install resolved        'lockfile-lint': 'lockfile-lint --allowed-hosts npm --allowed-schemes https: --empty-hostname false --type npm --path package-lock.json',
+140 silly install resolved        'update-deps': 'ncu -u -x "jquery,karma-browserstack-launcher,sinon" && npm update && bundle update && cross-env-shell echo Manually update \\"site/docs/$npm_package_version_short/assets/js/vendor/\\"',
+140 silly install resolved        release: 'npm-run-all dist release-sri docs-production release-zip*',
+140 silly install resolved        'release-sri': 'node build/generate-sri.js',
+140 silly install resolved        'release-version': 'node build/change-version.js',
+140 silly install resolved        'release-zip': 'cross-env-shell "shx rm -rf bootstrap-$npm_package_version-dist && shx cp -r dist/ bootstrap-$npm_package_version-dist && zip -r9 bootstrap-$npm_package_version-dist.zip bootstrap-$npm_package_version-dist && shx rm -rf bootstrap-$npm_package_version-dist"',
+140 silly install resolved        'release-zip-examples': 'node build/zip-examples.js',
+140 silly install resolved        dist: 'npm-run-all --parallel css js',
+140 silly install resolved        test: 'npm-run-all lint dist js-test docs-build docs-lint',
+140 silly install resolved        netlify: 'npm-run-all dist release-sri docs-netlify',
+140 silly install resolved        watch: 'npm-run-all --parallel watch-*',
+140 silly install resolved        'watch-css-main': 'nodemon --watch scss/ --ext scss --exec "npm run css-main"',
+140 silly install resolved        'watch-css-docs': 'nodemon --watch "site/docs/**/assets/scss/" --ext scss --exec "npm run css-docs"',
+140 silly install resolved        'watch-js-main': 'nodemon --watch js/src/ --ext js --exec "npm run js-compile"',
+140 silly install resolved        'watch-js-docs': 'nodemon --watch "site/docs/**/assets/js/src/" --ext js --exec "npm run js-docs"' },
+140 silly install resolved     style: 'dist/css/bootstrap.css',
+140 silly install resolved     sass: 'scss/bootstrap.scss',
+140 silly install resolved     main: 'dist/js/bootstrap.js',
+140 silly install resolved     repository:
+140 silly install resolved      { type: 'git',
+140 silly install resolved        url: 'git+https://github.com/twbs/bootstrap.git' },
+140 silly install resolved     bugs: { url: 'https://github.com/twbs/bootstrap/issues' },
+140 silly install resolved     license: 'MIT',
+140 silly install resolved     funding:
+140 silly install resolved      { type: 'opencollective',
+140 silly install resolved        url: 'https://opencollective.com/bootstrap' },
+140 silly install resolved     dependencies: {},
+140 silly install resolved     peerDependencies: { jquery: '1.9.1 - 3', 'popper.js': '^1.16.1' },
+140 silly install resolved     devDependencies:
+140 silly install resolved      { '@babel/cli': '^7.10.5',
+140 silly install resolved        '@babel/core': '^7.11.0',
+140 silly install resolved        '@babel/preset-env': '^7.11.0',
+140 silly install resolved        '@rollup/plugin-babel': '^5.1.0',
+140 silly install resolved        '@rollup/plugin-commonjs': '^14.0.0',
+140 silly install resolved        '@rollup/plugin-node-resolve': '^8.4.0',
+140 silly install resolved        autoprefixer: '^9.8.6',
+140 silly install resolved        'babel-eslint': '^10.1.0',
+140 silly install resolved        'babel-plugin-istanbul': '^6.0.0',
+140 silly install resolved        bundlewatch: '^0.2.7',
+140 silly install resolved        'clean-css-cli': '^4.3.0',
+140 silly install resolved        'cross-env': '^7.0.2',
+140 silly install resolved        eslint: '^7.6.0',
+140 silly install resolved        'find-unused-sass-variables': '^2.0.0',
+140 silly install resolved        glob: '^7.1.6',
+140 silly install resolved        'hammer-simulator': '0.0.1',
+140 silly install resolved        ip: '^1.1.5',
+140 silly install resolved        jquery: '^3.5.1',
+140 silly install resolved        karma: '^5.1.1',
+140 silly install resolved        'karma-browserstack-launcher': '1.4.0',
+140 silly install resolved        'karma-chrome-launcher': '^3.1.0',
+140 silly install resolved        'karma-coverage-istanbul-reporter': '^3.0.3',
+140 silly install resolved        'karma-detect-browsers': '^2.3.3',
+140 silly install resolved        'karma-firefox-launcher': '^1.3.0',
+140 silly install resolved        'karma-qunit': '^4.1.1',
+140 silly install resolved        'karma-sinon': '^1.0.5',
+140 silly install resolved        linkinator: '^2.1.1',
+140 silly install resolved        'lockfile-lint': '^4.3.7',
+140 silly install resolved        'node-sass': '^4.14.1',
+140 silly install resolved        nodemon: '^2.0.4',
+140 silly install resolved        'npm-run-all': '^4.1.5',
+140 silly install resolved        'popper.js': '^1.16.1',
+140 silly install resolved        'postcss-cli': '^7.1.1',
+140 silly install resolved        qunit: '^2.10.1',
+140 silly install resolved        rollup: '^2.23.0',
+140 silly install resolved        shelljs: '^0.8.4',
+140 silly install resolved        shx: '^0.3.2',
+140 silly install resolved        sinon: '^7.5.0',
+140 silly install resolved        stylelint: '^13.6.1',
+140 silly install resolved        'stylelint-config-twbs-bootstrap': '^2.0.3',
+140 silly install resolved        terser: '^4.8.0',
+140 silly install resolved        'vnu-jar': '20.6.30' },
+140 silly install resolved     jspm:
+140 silly install resolved      { registry: 'npm',
+140 silly install resolved        main: 'js/bootstrap',
+140 silly install resolved        directories: [Object],
+140 silly install resolved        shim: [Object],
+140 silly install resolved        dependencies: {},
+140 silly install resolved        peerDependencies: [Object] },
+140 silly install resolved     gitHead: '5f2480a90ab911babc53039835fe78c6fc12646d',
+140 silly install resolved     _id: 'bootstrap@4.5.2',
+140 silly install resolved     _nodeVersion: '12.18.3',
+140 silly install resolved     _npmVersion: '6.14.6',
+140 silly install resolved     dist:
+140 silly install resolved      { integrity: 'sha512-vlGn0bcySYl/iV+BGA544JkkZP5LB3jsmkeKLFQakCOwCM3AOk7VkldBz4jrzSe+Z0Ezn99NVXa1o45cQY4R6A==',
+140 silly install resolved        shasum: 'a85c4eda59155f0d71186b6e6ad9b875813779ab',
+140 silly install resolved        tarball: 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz',
+140 silly install resolved        fileCount: 153,
+140 silly install resolved        unpackedSize: 4489273,
+140 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfLC9pCRA9TVsSAnZWagAAa1MQAJQAie7tyJEojpwls7kv\nDIEtD/hyPIAXJnBk+/7GBiXQd7YiuydC7BKfxq1fC+F9r5WR6VEtjN09B9zu\n28V8YCeRPbVJzH6tN2Iw5utmxhUYhi4P/NQ3OqnwNgaKBp0zCRcuxycwnEvS\no3InPrApRaiLhkQGk2cfQo4UgKVNfxZdOov1t31mcpjc1qZNxz2ZMGJSDO/Y\nYM3LNX086w5sYvFmtE0+ng+Q7yB7Md/net+0Y56HVeLZiP3QEmII+6xcu6sJ\nW8W0KaihXIH+q+1lhBzWTySXU9a/2uAAMAZ+vlvtutN0dbB8cYKQyTWSGaex\nGXimtYVQ/dTxU95q8wLMcvFkbcK9p9NjC3RKG4nwXqdfvqb4o0XkcibmTS5a\nKQKV1Kje0LAsJoiiM9ez2yanhNzGABIWraYHsQNOntkfY/xDPyYgR4NeEKw2\niWeL0ThuEPZrOaSRdGCdvurPjqTWc1OoBK7Xmz72RT8rttst5fdauIU9RZ1C\nGGP/uCMZAPdcmQSR61tppzuaYpgKmDabyqO+Q/qE/EVG6qysi9Tp1ua9IStv\nSFveZsLfwrsknWiBoWJgCvQCN6FxZqCxXK59hd2LJOGUqlqI3xpypGow1JlK\njZIn2Js2rvyYegmbglRuHWGGy4SoRz5qdut65+OqC7HfbwWCZWQimj4VRzCa\nuEIH\r\n=v/PP\r\n-----END PGP SIGNATURE-----\r\n' },
+140 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+140 silly install resolved     _npmUser: { name: 'xhmikosr', email: 'xhmikosr@gmail.com' },
+140 silly install resolved     directories: {},
+140 silly install resolved     _npmOperationalInternal:
+140 silly install resolved      { host: 's3://npm-registry-packages',
+140 silly install resolved        tmp: 'tmp/bootstrap_4.5.2_1596731240717_0.3318311362321109' },
+140 silly install resolved     _hasShrinkwrap: false,
+140 silly install resolved     _shasum: 'a85c4eda59155f0d71186b6e6ad9b875813779ab',
+140 silly install resolved     _resolved: 'https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.2.tgz',
+140 silly install resolved     _from: 'bootstrap@*' } ]
+141 info install bootstrap@4.5.2 into /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass
+142 info installOne bootstrap@4.5.2
+143 verbose installOne of bootstrap to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass not in flight; installing
+144 verbose lock using /Users/workstationthree/.npm/_locks/bootstrap-3f2f160c92695a53.lock for /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+145 silly install write writing bootstrap 4.5.2 to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+146 silly cache addNamed cb bootstrap@4.5.2
+147 verbose unbuild node_modules/bootstrap
+148 verbose gentlyRm vacuuming /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+149 verbose tar unpack /Users/workstationthree/.npm/bootstrap/4.5.2/package.tgz
+150 verbose tar unpacking to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+151 verbose gentlyRm vacuuming /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry LICENSE
+154 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+155 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css
+156 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.css', 438, 420 ]
+157 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css
+158 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.min.css', 438, 420 ]
+159 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css
+160 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.css', 438, 420 ]
+161 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css
+162 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.min.css', 438, 420 ]
+163 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+164 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css', 438, 420 ]
+165 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+166 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css', 438, 420 ]
+167 silly gunzTarPerm extractEntry js/dist/alert.js
+168 silly gunzTarPerm modified mode [ 'js/dist/alert.js', 438, 420 ]
+169 silly gunzTarPerm extractEntry js/src/alert.js
+170 silly gunzTarPerm modified mode [ 'js/src/alert.js', 438, 420 ]
+171 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.js
+172 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.bundle.js', 438, 420 ]
+173 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.min.js
+174 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.bundle.min.js', 438, 420 ]
+175 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+176 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.js', 438, 420 ]
+177 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+178 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.min.js', 438, 420 ]
+179 silly gunzTarPerm extractEntry js/dist/button.js
+180 silly gunzTarPerm modified mode [ 'js/dist/button.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry js/src/button.js
+182 silly gunzTarPerm modified mode [ 'js/src/button.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry js/dist/carousel.js
+184 silly gunzTarPerm modified mode [ 'js/dist/carousel.js', 438, 420 ]
+185 silly gunzTarPerm extractEntry js/src/carousel.js
+186 silly gunzTarPerm modified mode [ 'js/src/carousel.js', 438, 420 ]
+187 silly gunzTarPerm extractEntry js/dist/collapse.js
+188 silly gunzTarPerm modified mode [ 'js/dist/collapse.js', 438, 420 ]
+189 silly gunzTarPerm extractEntry js/src/collapse.js
+190 silly gunzTarPerm modified mode [ 'js/src/collapse.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry js/dist/dropdown.js
+192 silly gunzTarPerm modified mode [ 'js/dist/dropdown.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry js/src/dropdown.js
+194 silly gunzTarPerm modified mode [ 'js/src/dropdown.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry js/dist/index.js
+196 silly gunzTarPerm modified mode [ 'js/dist/index.js', 438, 420 ]
+197 silly gunzTarPerm extractEntry js/src/index.js
+198 silly gunzTarPerm modified mode [ 'js/src/index.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry js/dist/modal.js
+200 silly gunzTarPerm modified mode [ 'js/dist/modal.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry js/src/modal.js
+202 silly gunzTarPerm modified mode [ 'js/src/modal.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry js/dist/popover.js
+204 silly gunzTarPerm modified mode [ 'js/dist/popover.js', 438, 420 ]
+205 silly gunzTarPerm extractEntry js/src/popover.js
+206 silly gunzTarPerm modified mode [ 'js/src/popover.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry js/src/tools/sanitizer.js
+208 silly gunzTarPerm modified mode [ 'js/src/tools/sanitizer.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry js/dist/scrollspy.js
+210 silly gunzTarPerm modified mode [ 'js/dist/scrollspy.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry js/src/scrollspy.js
+212 silly gunzTarPerm modified mode [ 'js/src/scrollspy.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry js/dist/tab.js
+214 silly gunzTarPerm modified mode [ 'js/dist/tab.js', 438, 420 ]
+215 silly gunzTarPerm extractEntry js/src/tab.js
+216 silly gunzTarPerm modified mode [ 'js/src/tab.js', 438, 420 ]
+217 silly gunzTarPerm extractEntry js/dist/toast.js
+218 silly gunzTarPerm modified mode [ 'js/dist/toast.js', 438, 420 ]
+219 silly gunzTarPerm extractEntry js/src/toast.js
+220 silly gunzTarPerm modified mode [ 'js/src/toast.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry js/dist/tooltip.js
+222 silly gunzTarPerm modified mode [ 'js/dist/tooltip.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry js/src/tooltip.js
+224 silly gunzTarPerm modified mode [ 'js/src/tooltip.js', 438, 420 ]
+225 silly gunzTarPerm extractEntry js/dist/util.js
+226 silly gunzTarPerm modified mode [ 'js/dist/util.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry js/src/util.js
+228 silly gunzTarPerm modified mode [ 'js/src/util.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry package.json
+230 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+231 silly gunzTarPerm extractEntry js/dist/alert.js.map
+232 silly gunzTarPerm modified mode [ 'js/dist/alert.js.map', 438, 420 ]
+233 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.css.map
+234 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.css.map', 438, 420 ]
+235 silly gunzTarPerm extractEntry dist/css/bootstrap-grid.min.css.map
+236 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-grid.min.css.map', 438, 420 ]
+237 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.css.map
+238 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.css.map', 438, 420 ]
+239 silly gunzTarPerm extractEntry dist/css/bootstrap-reboot.min.css.map
+240 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-reboot.min.css.map', 438, 420 ]
+241 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.js.map
+242 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.bundle.js.map', 438, 420 ]
+243 silly gunzTarPerm extractEntry dist/js/bootstrap.bundle.min.js.map
+244 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.bundle.min.js.map', 438, 420 ]
+245 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+246 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css.map', 438, 420 ]
+247 silly gunzTarPerm extractEntry dist/js/bootstrap.js.map
+248 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.js.map', 438, 420 ]
+249 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+250 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css.map', 438, 420 ]
+251 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js.map
+252 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.min.js.map', 438, 420 ]
+253 silly gunzTarPerm extractEntry js/dist/button.js.map
+254 silly gunzTarPerm modified mode [ 'js/dist/button.js.map', 438, 420 ]
+255 silly gunzTarPerm extractEntry js/dist/carousel.js.map
+256 silly gunzTarPerm modified mode [ 'js/dist/carousel.js.map', 438, 420 ]
+257 silly gunzTarPerm extractEntry js/dist/collapse.js.map
+258 silly gunzTarPerm modified mode [ 'js/dist/collapse.js.map', 438, 420 ]
+259 silly gunzTarPerm extractEntry js/dist/dropdown.js.map
+260 silly gunzTarPerm modified mode [ 'js/dist/dropdown.js.map', 438, 420 ]
+261 silly gunzTarPerm extractEntry js/dist/index.js.map
+262 silly gunzTarPerm modified mode [ 'js/dist/index.js.map', 438, 420 ]
+263 silly gunzTarPerm extractEntry js/dist/modal.js.map
+264 silly gunzTarPerm modified mode [ 'js/dist/modal.js.map', 438, 420 ]
+265 silly gunzTarPerm extractEntry js/dist/popover.js.map
+266 silly gunzTarPerm modified mode [ 'js/dist/popover.js.map', 438, 420 ]
+267 silly gunzTarPerm extractEntry js/dist/scrollspy.js.map
+268 silly gunzTarPerm modified mode [ 'js/dist/scrollspy.js.map', 438, 420 ]
+269 silly gunzTarPerm extractEntry js/dist/tab.js.map
+270 silly gunzTarPerm modified mode [ 'js/dist/tab.js.map', 438, 420 ]
+271 silly gunzTarPerm extractEntry js/dist/toast.js.map
+272 silly gunzTarPerm modified mode [ 'js/dist/toast.js.map', 438, 420 ]
+273 silly gunzTarPerm extractEntry js/dist/tooltip.js.map
+274 silly gunzTarPerm modified mode [ 'js/dist/tooltip.js.map', 438, 420 ]
+275 silly gunzTarPerm extractEntry js/dist/util.js.map
+276 silly gunzTarPerm modified mode [ 'js/dist/util.js.map', 438, 420 ]
+277 silly gunzTarPerm extractEntry README.md
+278 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+279 silly gunzTarPerm extractEntry scss/_alert.scss
+280 silly gunzTarPerm modified mode [ 'scss/_alert.scss', 438, 420 ]
+281 silly gunzTarPerm extractEntry scss/mixins/_alert.scss
+282 silly gunzTarPerm modified mode [ 'scss/mixins/_alert.scss', 438, 420 ]
+283 silly gunzTarPerm extractEntry scss/utilities/_align.scss
+284 silly gunzTarPerm modified mode [ 'scss/utilities/_align.scss', 438, 420 ]
+285 silly gunzTarPerm extractEntry scss/mixins/_background-variant.scss
+286 silly gunzTarPerm modified mode [ 'scss/mixins/_background-variant.scss', 438, 420 ]
+287 silly gunzTarPerm extractEntry scss/utilities/_background.scss
+288 silly gunzTarPerm modified mode [ 'scss/utilities/_background.scss', 438, 420 ]
+289 silly gunzTarPerm extractEntry scss/_badge.scss
+290 silly gunzTarPerm modified mode [ 'scss/_badge.scss', 438, 420 ]
+291 silly gunzTarPerm extractEntry scss/mixins/_badge.scss
+292 silly gunzTarPerm modified mode [ 'scss/mixins/_badge.scss', 438, 420 ]
+293 silly gunzTarPerm extractEntry scss/mixins/_border-radius.scss
+294 silly gunzTarPerm modified mode [ 'scss/mixins/_border-radius.scss', 438, 420 ]
+295 silly gunzTarPerm extractEntry scss/utilities/_borders.scss
+296 silly gunzTarPerm modified mode [ 'scss/utilities/_borders.scss', 438, 420 ]
+297 silly gunzTarPerm extractEntry scss/mixins/_box-shadow.scss
+298 silly gunzTarPerm modified mode [ 'scss/mixins/_box-shadow.scss', 438, 420 ]
+299 silly gunzTarPerm extractEntry scss/_breadcrumb.scss
+300 silly gunzTarPerm modified mode [ 'scss/_breadcrumb.scss', 438, 420 ]
+301 silly gunzTarPerm extractEntry scss/mixins/_breakpoints.scss
+302 silly gunzTarPerm modified mode [ 'scss/mixins/_breakpoints.scss', 438, 420 ]
+303 silly gunzTarPerm extractEntry scss/_button-group.scss
+304 silly gunzTarPerm modified mode [ 'scss/_button-group.scss', 438, 420 ]
+305 silly gunzTarPerm extractEntry scss/_buttons.scss
+306 silly gunzTarPerm modified mode [ 'scss/_buttons.scss', 438, 420 ]
+307 silly gunzTarPerm extractEntry scss/mixins/_buttons.scss
+308 silly gunzTarPerm modified mode [ 'scss/mixins/_buttons.scss', 438, 420 ]
+309 silly gunzTarPerm extractEntry scss/_card.scss
+310 silly gunzTarPerm modified mode [ 'scss/_card.scss', 438, 420 ]
+311 silly gunzTarPerm extractEntry scss/mixins/_caret.scss
+312 silly gunzTarPerm modified mode [ 'scss/mixins/_caret.scss', 438, 420 ]
+313 silly gunzTarPerm extractEntry scss/_carousel.scss
+314 silly gunzTarPerm modified mode [ 'scss/_carousel.scss', 438, 420 ]
+315 silly gunzTarPerm extractEntry scss/mixins/_clearfix.scss
+316 silly gunzTarPerm modified mode [ 'scss/mixins/_clearfix.scss', 438, 420 ]
+317 silly gunzTarPerm extractEntry scss/utilities/_clearfix.scss
+318 silly gunzTarPerm modified mode [ 'scss/utilities/_clearfix.scss', 438, 420 ]
+319 silly gunzTarPerm extractEntry scss/_close.scss
+320 silly gunzTarPerm modified mode [ 'scss/_close.scss', 438, 420 ]
+321 silly gunzTarPerm extractEntry scss/_code.scss
+322 silly gunzTarPerm modified mode [ 'scss/_code.scss', 438, 420 ]
+323 silly gunzTarPerm extractEntry scss/_custom-forms.scss
+324 silly gunzTarPerm modified mode [ 'scss/_custom-forms.scss', 438, 420 ]
+325 silly gunzTarPerm extractEntry scss/mixins/_deprecate.scss
+326 silly gunzTarPerm modified mode [ 'scss/mixins/_deprecate.scss', 438, 420 ]
+327 silly gunzTarPerm extractEntry scss/utilities/_display.scss
+328 silly gunzTarPerm modified mode [ 'scss/utilities/_display.scss', 438, 420 ]
+329 silly gunzTarPerm extractEntry scss/_dropdown.scss
+330 silly gunzTarPerm modified mode [ 'scss/_dropdown.scss', 438, 420 ]
+331 silly gunzTarPerm extractEntry scss/utilities/_embed.scss
+332 silly gunzTarPerm modified mode [ 'scss/utilities/_embed.scss', 438, 420 ]
+333 silly gunzTarPerm extractEntry scss/utilities/_flex.scss
+334 silly gunzTarPerm modified mode [ 'scss/utilities/_flex.scss', 438, 420 ]
+335 silly gunzTarPerm extractEntry scss/mixins/_float.scss
+336 silly gunzTarPerm modified mode [ 'scss/mixins/_float.scss', 438, 420 ]
+337 silly gunzTarPerm extractEntry scss/utilities/_float.scss
+338 silly gunzTarPerm modified mode [ 'scss/utilities/_float.scss', 438, 420 ]
+339 silly gunzTarPerm extractEntry scss/_forms.scss
+340 silly gunzTarPerm modified mode [ 'scss/_forms.scss', 438, 420 ]
+341 silly gunzTarPerm extractEntry scss/mixins/_forms.scss
+342 silly gunzTarPerm modified mode [ 'scss/mixins/_forms.scss', 438, 420 ]
+343 silly gunzTarPerm extractEntry scss/_functions.scss
+344 silly gunzTarPerm modified mode [ 'scss/_functions.scss', 438, 420 ]
+345 silly gunzTarPerm extractEntry scss/mixins/_gradients.scss
+346 silly gunzTarPerm modified mode [ 'scss/mixins/_gradients.scss', 438, 420 ]
+347 silly gunzTarPerm extractEntry scss/mixins/_grid-framework.scss
+348 silly gunzTarPerm modified mode [ 'scss/mixins/_grid-framework.scss', 438, 420 ]
+349 silly gunzTarPerm extractEntry scss/_grid.scss
+350 silly gunzTarPerm modified mode [ 'scss/_grid.scss', 438, 420 ]
+351 silly gunzTarPerm extractEntry scss/mixins/_grid.scss
+352 silly gunzTarPerm modified mode [ 'scss/mixins/_grid.scss', 438, 420 ]
+353 silly gunzTarPerm extractEntry scss/mixins/_hover.scss
+354 silly gunzTarPerm modified mode [ 'scss/mixins/_hover.scss', 438, 420 ]
+355 silly gunzTarPerm extractEntry scss/mixins/_image.scss
+356 silly gunzTarPerm modified mode [ 'scss/mixins/_image.scss', 438, 420 ]
+357 silly gunzTarPerm extractEntry scss/_images.scss
+358 silly gunzTarPerm modified mode [ 'scss/_images.scss', 438, 420 ]
+359 silly gunzTarPerm extractEntry scss/_input-group.scss
+360 silly gunzTarPerm modified mode [ 'scss/_input-group.scss', 438, 420 ]
+361 silly gunzTarPerm extractEntry scss/utilities/_interactions.scss
+362 silly gunzTarPerm modified mode [ 'scss/utilities/_interactions.scss', 438, 420 ]
+363 silly gunzTarPerm extractEntry scss/_jumbotron.scss
+364 silly gunzTarPerm modified mode [ 'scss/_jumbotron.scss', 438, 420 ]
+365 silly gunzTarPerm extractEntry scss/_list-group.scss
+366 silly gunzTarPerm modified mode [ 'scss/_list-group.scss', 438, 420 ]
+367 silly gunzTarPerm extractEntry scss/mixins/_list-group.scss
+368 silly gunzTarPerm modified mode [ 'scss/mixins/_list-group.scss', 438, 420 ]
+369 silly gunzTarPerm extractEntry scss/mixins/_lists.scss
+370 silly gunzTarPerm modified mode [ 'scss/mixins/_lists.scss', 438, 420 ]
+371 silly gunzTarPerm extractEntry scss/_media.scss
+372 silly gunzTarPerm modified mode [ 'scss/_media.scss', 438, 420 ]
+373 silly gunzTarPerm extractEntry scss/_mixins.scss
+374 silly gunzTarPerm modified mode [ 'scss/_mixins.scss', 438, 420 ]
+375 silly gunzTarPerm extractEntry scss/_modal.scss
+376 silly gunzTarPerm modified mode [ 'scss/_modal.scss', 438, 420 ]
+377 silly gunzTarPerm extractEntry scss/mixins/_nav-divider.scss
+378 silly gunzTarPerm modified mode [ 'scss/mixins/_nav-divider.scss', 438, 420 ]
+379 silly gunzTarPerm extractEntry scss/_nav.scss
+380 silly gunzTarPerm modified mode [ 'scss/_nav.scss', 438, 420 ]
+381 silly gunzTarPerm extractEntry scss/_navbar.scss
+382 silly gunzTarPerm modified mode [ 'scss/_navbar.scss', 438, 420 ]
+383 silly gunzTarPerm extractEntry scss/utilities/_overflow.scss
+384 silly gunzTarPerm modified mode [ 'scss/utilities/_overflow.scss', 438, 420 ]
+385 silly gunzTarPerm extractEntry scss/_pagination.scss
+386 silly gunzTarPerm modified mode [ 'scss/_pagination.scss', 438, 420 ]
+387 silly gunzTarPerm extractEntry scss/mixins/_pagination.scss
+388 silly gunzTarPerm modified mode [ 'scss/mixins/_pagination.scss', 438, 420 ]
+389 silly gunzTarPerm extractEntry scss/_popover.scss
+390 silly gunzTarPerm modified mode [ 'scss/_popover.scss', 438, 420 ]
+391 silly gunzTarPerm extractEntry scss/utilities/_position.scss
+392 silly gunzTarPerm modified mode [ 'scss/utilities/_position.scss', 438, 420 ]
+393 silly gunzTarPerm extractEntry scss/_print.scss
+394 silly gunzTarPerm modified mode [ 'scss/_print.scss', 438, 420 ]
+395 silly gunzTarPerm extractEntry scss/_progress.scss
+396 silly gunzTarPerm modified mode [ 'scss/_progress.scss', 438, 420 ]
+397 silly gunzTarPerm extractEntry scss/_reboot.scss
+398 silly gunzTarPerm modified mode [ 'scss/_reboot.scss', 438, 420 ]
+399 silly gunzTarPerm extractEntry scss/mixins/_reset-text.scss
+400 silly gunzTarPerm modified mode [ 'scss/mixins/_reset-text.scss', 438, 420 ]
+401 silly gunzTarPerm extractEntry scss/mixins/_resize.scss
+402 silly gunzTarPerm modified mode [ 'scss/mixins/_resize.scss', 438, 420 ]
+403 silly gunzTarPerm extractEntry scss/vendor/_rfs.scss
+404 silly gunzTarPerm modified mode [ 'scss/vendor/_rfs.scss', 438, 420 ]
+405 silly gunzTarPerm extractEntry scss/_root.scss
+406 silly gunzTarPerm modified mode [ 'scss/_root.scss', 438, 420 ]
+407 silly gunzTarPerm extractEntry scss/mixins/_screen-reader.scss
+408 silly gunzTarPerm modified mode [ 'scss/mixins/_screen-reader.scss', 438, 420 ]
+409 silly gunzTarPerm extractEntry scss/utilities/_screenreaders.scss
+410 silly gunzTarPerm modified mode [ 'scss/utilities/_screenreaders.scss', 438, 420 ]
+411 silly gunzTarPerm extractEntry scss/utilities/_shadows.scss
+412 silly gunzTarPerm modified mode [ 'scss/utilities/_shadows.scss', 438, 420 ]
+413 silly gunzTarPerm extractEntry scss/mixins/_size.scss
+414 silly gunzTarPerm modified mode [ 'scss/mixins/_size.scss', 438, 420 ]
+415 silly gunzTarPerm extractEntry scss/utilities/_sizing.scss
+416 silly gunzTarPerm modified mode [ 'scss/utilities/_sizing.scss', 438, 420 ]
+417 silly gunzTarPerm extractEntry scss/utilities/_spacing.scss
+418 silly gunzTarPerm modified mode [ 'scss/utilities/_spacing.scss', 438, 420 ]
+419 silly gunzTarPerm extractEntry scss/_spinners.scss
+420 silly gunzTarPerm modified mode [ 'scss/_spinners.scss', 438, 420 ]
+421 silly gunzTarPerm extractEntry scss/utilities/_stretched-link.scss
+422 silly gunzTarPerm modified mode [ 'scss/utilities/_stretched-link.scss', 438, 420 ]
+423 silly gunzTarPerm extractEntry scss/mixins/_table-row.scss
+424 silly gunzTarPerm modified mode [ 'scss/mixins/_table-row.scss', 438, 420 ]
+425 silly gunzTarPerm extractEntry scss/_tables.scss
+426 silly gunzTarPerm modified mode [ 'scss/_tables.scss', 438, 420 ]
+427 silly gunzTarPerm extractEntry scss/mixins/_text-emphasis.scss
+428 silly gunzTarPerm modified mode [ 'scss/mixins/_text-emphasis.scss', 438, 420 ]
+429 silly gunzTarPerm extractEntry scss/mixins/_text-hide.scss
+430 silly gunzTarPerm modified mode [ 'scss/mixins/_text-hide.scss', 438, 420 ]
+431 silly gunzTarPerm extractEntry scss/mixins/_text-truncate.scss
+432 silly gunzTarPerm modified mode [ 'scss/mixins/_text-truncate.scss', 438, 420 ]
+433 silly gunzTarPerm extractEntry scss/utilities/_text.scss
+434 silly gunzTarPerm modified mode [ 'scss/utilities/_text.scss', 438, 420 ]
+435 silly gunzTarPerm extractEntry scss/_toasts.scss
+436 silly gunzTarPerm modified mode [ 'scss/_toasts.scss', 438, 420 ]
+437 silly gunzTarPerm extractEntry scss/_tooltip.scss
+438 silly gunzTarPerm modified mode [ 'scss/_tooltip.scss', 438, 420 ]
+439 silly gunzTarPerm extractEntry scss/mixins/_transition.scss
+440 silly gunzTarPerm modified mode [ 'scss/mixins/_transition.scss', 438, 420 ]
+441 silly gunzTarPerm extractEntry scss/_transitions.scss
+442 silly gunzTarPerm modified mode [ 'scss/_transitions.scss', 438, 420 ]
+443 silly gunzTarPerm extractEntry scss/_type.scss
+444 silly gunzTarPerm modified mode [ 'scss/_type.scss', 438, 420 ]
+445 silly gunzTarPerm extractEntry scss/_utilities.scss
+446 silly gunzTarPerm modified mode [ 'scss/_utilities.scss', 438, 420 ]
+447 silly gunzTarPerm extractEntry scss/_variables.scss
+448 silly gunzTarPerm modified mode [ 'scss/_variables.scss', 438, 420 ]
+449 silly gunzTarPerm extractEntry scss/mixins/_visibility.scss
+450 silly gunzTarPerm modified mode [ 'scss/mixins/_visibility.scss', 438, 420 ]
+451 silly gunzTarPerm extractEntry scss/utilities/_visibility.scss
+452 silly gunzTarPerm modified mode [ 'scss/utilities/_visibility.scss', 438, 420 ]
+453 silly gunzTarPerm extractEntry scss/bootstrap-grid.scss
+454 silly gunzTarPerm modified mode [ 'scss/bootstrap-grid.scss', 438, 420 ]
+455 silly gunzTarPerm extractEntry scss/bootstrap-reboot.scss
+456 silly gunzTarPerm modified mode [ 'scss/bootstrap-reboot.scss', 438, 420 ]
+457 silly gunzTarPerm extractEntry scss/bootstrap.scss
+458 silly gunzTarPerm modified mode [ 'scss/bootstrap.scss', 438, 420 ]
+459 info preinstall bootstrap@4.5.2
+460 silly prepareForInstallMany adding jquery@1.9.1 - 3 from bootstrap peerDependencies
+461 silly prepareForInstallMany adding popper.js@^1.16.1 from bootstrap peerDependencies
+462 silly install resolved []
+463 verbose about to build /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+464 info build /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+465 verbose linkStuff [ false,
+465 verbose linkStuff   false,
+465 verbose linkStuff   false,
+465 verbose linkStuff   '/Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules' ]
+466 info linkStuff bootstrap@4.5.2
+467 verbose linkBins bootstrap@4.5.2
+468 verbose linkMans bootstrap@4.5.2
+469 verbose rebuildBundles bootstrap@4.5.2
+470 info install bootstrap@4.5.2
+471 info postinstall bootstrap@4.5.2
+472 silly cache add args [ 'jquery@1.9.1 - 3', null ]
+473 verbose cache add spec jquery@1.9.1 - 3
+474 silly cache add parsed spec { raw: 'jquery@1.9.1 - 3',
+474 silly cache add   scope: null,
+474 silly cache add   name: 'jquery',
+474 silly cache add   rawSpec: '1.9.1 - 3',
+474 silly cache add   spec: '>=1.9.1 <4.0.0',
+474 silly cache add   type: 'range' }
+475 verbose addNamed jquery@>=1.9.1 <4.0.0
+476 silly addNamed semver.valid null
+477 silly addNamed semver.validRange >=1.9.1 <4.0.0
+478 silly addNameRange { name: 'jquery', range: '>=1.9.1 <4.0.0', hasData: false }
+479 silly mapToRegistry name jquery
+480 silly mapToRegistry using default registry
+481 silly mapToRegistry registry https://registry.npmjs.org/
+482 silly mapToRegistry uri https://registry.npmjs.org/jquery
+483 verbose addNameRange registry:https://registry.npmjs.org/jquery not in flight; fetching
+484 silly cache add args [ 'popper.js@^1.16.1', null ]
+485 verbose cache add spec popper.js@^1.16.1
+486 silly cache add parsed spec { raw: 'popper.js@^1.16.1',
+486 silly cache add   scope: null,
+486 silly cache add   name: 'popper.js',
+486 silly cache add   rawSpec: '^1.16.1',
+486 silly cache add   spec: '>=1.16.1 <2.0.0',
+486 silly cache add   type: 'range' }
+487 verbose addNamed popper.js@>=1.16.1 <2.0.0
+488 silly addNamed semver.valid null
+489 silly addNamed semver.validRange >=1.16.1 <2.0.0
+490 silly addNameRange { name: 'popper.js', range: '>=1.16.1 <2.0.0', hasData: false }
+491 silly mapToRegistry name popper.js
+492 silly mapToRegistry using default registry
+493 silly mapToRegistry registry https://registry.npmjs.org/
+494 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+495 verbose addNameRange registry:https://registry.npmjs.org/popper.js not in flight; fetching
+496 verbose request uri https://registry.npmjs.org/jquery
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 1:36:33 PM
+499 verbose etag W/"4b40a603b34f95cc88aabdd2ef7eca8e"
+500 verbose lastModified Fri, 10 Apr 2020 15:44:08 GMT
+501 http request GET https://registry.npmjs.org/jquery
+502 verbose request uri https://registry.npmjs.org/popper.js
+503 verbose request no auth needed
+504 info attempt registry request try #1 at 1:36:33 PM
+505 verbose etag W/"3c7591df4251ca2dfba8db20c03f465a"
+506 verbose lastModified Sun, 26 Jan 2020 11:23:20 GMT
+507 http request GET https://registry.npmjs.org/popper.js
+508 http 200 https://registry.npmjs.org/jquery
+509 silly get cb [ 200,
+509 silly get   { date: 'Tue, 01 Sep 2020 17:36:37 GMT',
+509 silly get     'content-type': 'application/json',
+509 silly get     'transfer-encoding': 'chunked',
+509 silly get     connection: 'keep-alive',
+509 silly get     'set-cookie': [ '__cfduid=dcec4f8f8880efe3d14b615b76177371d1598981797; expires=Thu, 01-Oct-20 17:36:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+509 silly get     'cf-ray': '5cc0c12b29aecf14-IAD',
+509 silly get     age: '4859',
+509 silly get     'cache-control': 'public, max-age=300',
+509 silly get     etag: 'W/"8756a9fd6917c183146761c4f6c53da2"',
+509 silly get     'last-modified': 'Mon, 04 May 2020 22:50:16 GMT',
+509 silly get     vary: 'accept-encoding, accept',
+509 silly get     'cf-cache-status': 'HIT',
+509 silly get     'cf-request-id': '04ec570ef80000cf1468295200000001',
+509 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+509 silly get     server: 'cloudflare',
+509 silly get     'content-encoding': 'gzip' } ]
+510 verbose get saving jquery to /Users/workstationthree/.npm/registry.npmjs.org/jquery/.cache.json
+511 silly addNameRange number 2 { name: 'jquery', range: '>=1.9.1 <4.0.0', hasData: true }
+512 silly addNameRange versions [ 'jquery',
+512 silly addNameRange   [ '1.5.1',
+512 silly addNameRange     '1.6.2',
+512 silly addNameRange     '1.6.3',
+512 silly addNameRange     '1.7.2',
+512 silly addNameRange     '1.7.3',
+512 silly addNameRange     '1.8.2',
+512 silly addNameRange     '1.8.3',
+512 silly addNameRange     '2.1.0-beta2',
+512 silly addNameRange     '2.1.0-beta3',
+512 silly addNameRange     '1.11.0-beta3',
+512 silly addNameRange     '1.11.0-rc1',
+512 silly addNameRange     '2.1.0-rc1',
+512 silly addNameRange     '1.11.0',
+512 silly addNameRange     '2.1.0',
+512 silly addNameRange     '2.1.1-beta1',
+512 silly addNameRange     '1.11.1-beta1',
+512 silly addNameRange     '2.1.1-rc1',
+512 silly addNameRange     '1.11.1-rc1',
+512 silly addNameRange     '2.1.1-rc2',
+512 silly addNameRange     '1.11.1-rc2',
+512 silly addNameRange     '2.1.1',
+512 silly addNameRange     '1.11.1',
+512 silly addNameRange     '1.9.1',
+512 silly addNameRange     '2.1.2',
+512 silly addNameRange     '1.11.2',
+512 silly addNameRange     '2.1.3',
+512 silly addNameRange     '2.1.4',
+512 silly addNameRange     '1.11.3',
+512 silly addNameRange     '3.0.0-alpha1',
+512 silly addNameRange     '1.12.0',
+512 silly addNameRange     '2.2.0',
+512 silly addNameRange     '3.0.0-beta1',
+512 silly addNameRange     '1.12.1',
+512 silly addNameRange     '2.2.1',
+512 silly addNameRange     '1.12.2',
+512 silly addNameRange     '2.2.2',
+512 silly addNameRange     '1.12.3',
+512 silly addNameRange     '2.2.3',
+512 silly addNameRange     '1.12.4',
+512 silly addNameRange     '2.2.4',
+512 silly addNameRange     '3.0.0-rc1',
+512 silly addNameRange     '3.0.0',
+512 silly addNameRange     '3.1.0',
+512 silly addNameRange     '3.1.1',
+512 silly addNameRange     '3.2.0',
+512 silly addNameRange     '3.2.1',
+512 silly addNameRange     '3.3.0',
+512 silly addNameRange     '3.3.1',
+512 silly addNameRange     '3.4.0',
+512 silly addNameRange     '3.4.1',
+512 silly addNameRange     '3.5.0',
+512 silly addNameRange     '3.5.1' ] ]
+513 verbose addNamed jquery@3.5.1
+514 silly addNamed semver.valid 3.5.1
+515 silly addNamed semver.validRange 3.5.1
+516 silly mapToRegistry name jquery
+517 silly mapToRegistry using default registry
+518 silly mapToRegistry registry https://registry.npmjs.org/
+519 silly mapToRegistry uri https://registry.npmjs.org/jquery
+520 verbose addRemoteTarball https://registry.npmjs.org/jquery/-/jquery-3.5.1.tgz not in flight; adding
+521 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-3.5.1.tgz',
+521 verbose addRemoteTarball   'd7b4d08e1bfdb86ad2f1a3d039ea17304717abb5' ]
+522 info retry fetch attempt 1 at 1:36:33 PM
+523 info attempt registry request try #1 at 1:36:33 PM
+524 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.5.1.tgz
+525 http 200 https://registry.npmjs.org/popper.js
+526 silly get cb [ 200,
+526 silly get   { date: 'Tue, 01 Sep 2020 17:36:37 GMT',
+526 silly get     'content-type': 'application/json',
+526 silly get     'transfer-encoding': 'chunked',
+526 silly get     connection: 'keep-alive',
+526 silly get     'set-cookie': [ '__cfduid=d5f49c3fe6ece4c9d410d3e1d1203cefa1598981797; expires=Thu, 01-Oct-20 17:36:37 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+526 silly get     'cf-ray': '5cc0c12b68779fe2-IAD',
+526 silly get     age: '5081',
+526 silly get     'cache-control': 'public, max-age=300',
+526 silly get     etag: 'W/"256a715c17629b3a9c59b06d5bba0f3f"',
+526 silly get     'last-modified': 'Mon, 06 Apr 2020 06:00:52 GMT',
+526 silly get     vary: 'accept-encoding, accept',
+526 silly get     'cf-cache-status': 'HIT',
+526 silly get     'cf-request-id': '04ec570f2200009fe2d6bcc200000001',
+526 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+526 silly get     server: 'cloudflare',
+526 silly get     'content-encoding': 'gzip' } ]
+527 verbose get saving popper.js to /Users/workstationthree/.npm/registry.npmjs.org/popper.js/.cache.json
+528 silly addNameRange number 2 { name: 'popper.js', range: '>=1.16.1 <2.0.0', hasData: true }
+529 silly addNameRange versions [ 'popper.js',
+529 silly addNameRange   [ '0.2.0',
+529 silly addNameRange     '0.2.1',
+529 silly addNameRange     '0.2.2',
+529 silly addNameRange     '0.2.3',
+529 silly addNameRange     '0.2.4',
+529 silly addNameRange     '0.2.5',
+529 silly addNameRange     '0.2.6',
+529 silly addNameRange     '0.3.0',
+529 silly addNameRange     '0.3.1',
+529 silly addNameRange     '0.3.2',
+529 silly addNameRange     '0.3.3',
+529 silly addNameRange     '0.3.4',
+529 silly addNameRange     '0.3.5',
+529 silly addNameRange     '0.3.6',
+529 silly addNameRange     '0.3.7',
+529 silly addNameRange     '0.3.8',
+529 silly addNameRange     '0.4.0',
+529 silly addNameRange     '0.4.1',
+529 silly addNameRange     '0.4.2',
+529 silly addNameRange     '0.5.0',
+529 silly addNameRange     '0.5.1',
+529 silly addNameRange     '0.5.2',
+529 silly addNameRange     '0.5.3',
+529 silly addNameRange     '0.6.0',
+529 silly addNameRange     '1.0.0-alpha.1',
+529 silly addNameRange     '1.0.0-alpha.2',
+529 silly addNameRange     '0.6.1',
+529 silly addNameRange     '0.6.2',
+529 silly addNameRange     '0.6.3',
+529 silly addNameRange     '0.6.4',
+529 silly addNameRange     '1.0.0-alpha.3',
+529 silly addNameRange     '1.0.0-alpha.4',
+529 silly addNameRange     '1.0.0-alpha.5',
+529 silly addNameRange     '1.0.0-alpha.6',
+529 silly addNameRange     '1.0.0-alpha.7',
+529 silly addNameRange     '1.0.0-alpha.8',
+529 silly addNameRange     '1.0.0-beta.1',
+529 silly addNameRange     '1.0.0-beta.2',
+529 silly addNameRange     '1.0.0-beta.3',
+529 silly addNameRange     '1.0.0-beta.4',
+529 silly addNameRange     '1.0.0-beta.5',
+529 silly addNameRange     '1.0.0',
+529 silly addNameRange     '1.0.1',
+529 silly addNameRange     '1.0.2',
+529 silly addNameRange     '1.0.3',
+529 silly addNameRange     '1.0.4',
+529 silly addNameRange     '1.0.5',
+529 silly addNameRange     '1.0.6',
+529 silly addNameRange     '1.0.7',
+529 silly addNameRange     '1.0.8',
+529 silly addNameRange     '1.5.0',
+529 silly addNameRange     '1.5.1-pre',
+529 silly addNameRange     '1.5.1-pre.2',
+529 silly addNameRange     '1.5.1',
+529 silly addNameRange     '1.5.2',
+529 silly addNameRange     '1.6.0',
+529 silly addNameRange     '1.7.0',
+529 silly addNameRange     '1.8.0',
+529 silly addNameRange     '1.8.1',
+529 silly addNameRange     '1.8.2',
+529 silly addNameRange     '1.8.3',
+529 silly addNameRange     '1.8.4',
+529 silly addNameRange     '1.8.5',
+529 silly addNameRange     '1.8.6',
+529 silly addNameRange     '1.9.0',
+529 silly addNameRange     '1.9.1',
+529 silly addNameRange     '1.9.2',
+529 silly addNameRange     '1.9.3',
+529 silly addNameRange     '1.9.4',
+529 silly addNameRange     '1.9.5',
+529 silly addNameRange     '1.9.6',
+529 silly addNameRange     '1.9.7',
+529 silly addNameRange     '1.9.8',
+529 silly addNameRange     '1.9.9',
+529 silly addNameRange     '1.10.0',
+529 silly addNameRange     '1.10.1',
+529 silly addNameRange     '1.10.2',
+529 silly addNameRange     '1.10.3',
+529 silly addNameRange     '1.10.4',
+529 silly addNameRange     '1.10.5',
+529 silly addNameRange     '1.10.6',
+529 silly addNameRange     '1.10.7',
+529 silly addNameRange     '1.10.8',
+529 silly addNameRange     '1.11.0',
+529 silly addNameRange     '1.11.1',
+529 silly addNameRange     '1.12.0',
+529 silly addNameRange     '1.12.1',
+529 silly addNameRange     '1.12.2',
+529 silly addNameRange     '1.12.3',
+529 silly addNameRange     '1.12.4',
+529 silly addNameRange     '1.12.5',
+529 silly addNameRange     '1.12.6',
+529 silly addNameRange     '1.12.7',
+529 silly addNameRange     '1.12.8',
+529 silly addNameRange     '1.12.9',
+529 silly addNameRange     '1.13.0',
+529 silly addNameRange     '1.13.0-next',
+529 silly addNameRange     '1.13.0-next.1',
+529 silly addNameRange     '1.14.0',
+529 silly addNameRange     '1.14.1',
+529 silly addNameRange     '1.14.2',
+529 silly addNameRange     '1.14.3',
+529 silly addNameRange     '1.14.4',
+529 silly addNameRange     '1.14.5',
+529 silly addNameRange     '2.0.0-next.1',
+529 silly addNameRange     '2.0.0-next.2',
+529 silly addNameRange     '2.0.0-next.3',
+529 silly addNameRange     '2.0.0-next.4',
+529 silly addNameRange     '1.14.6',
+529 silly addNameRange     '1.14.7',
+529 silly addNameRange     '1.15.0',
+529 silly addNameRange     '1.16.0',
+529 silly addNameRange     '1.16.1',
+529 silly addNameRange     '1.16.1-lts' ] ]
+530 verbose addNamed popper.js@1.16.1
+531 silly addNamed semver.valid 1.16.1
+532 silly addNamed semver.validRange 1.16.1
+533 warn deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+534 silly cache afterAdd popper.js@1.16.1
+535 verbose afterAdd /Users/workstationthree/.npm/popper.js/1.16.1/package/package.json not in flight; writing
+536 verbose afterAdd /Users/workstationthree/.npm/popper.js/1.16.1/package/package.json written
+537 http fetch 200 https://registry.npmjs.org/jquery/-/jquery-3.5.1.tgz
+538 silly fetchAndShaCheck shasum d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5
+539 verbose addTmpTarball /var/folders/8s/sn_fq9zj6_9b2rrhrtx1h19c0000gs/T/npm-51488-c0dbf499/registry.npmjs.org/jquery/-/jquery-3.5.1.tgz not in flight; adding
+540 verbose addTmpTarball already have metadata; skipping unpack for jquery@3.5.1
+541 silly cache afterAdd jquery@3.5.1
+542 verbose afterAdd /Users/workstationthree/.npm/jquery/3.5.1/package/package.json not in flight; writing
+543 verbose afterAdd /Users/workstationthree/.npm/jquery/3.5.1/package/package.json written
+544 silly install resolved [ { name: 'popper.js',
+544 silly install resolved     version: '1.16.1',
+544 silly install resolved     description: 'A kickass library to manage your poppers',
+544 silly install resolved     homepage: 'https://popper.js.org/',
+544 silly install resolved     repository:
+544 silly install resolved      { type: 'git',
+544 silly install resolved        url: 'git+https://github.com/FezVrasta/popper.js.git' },
+544 silly install resolved     author: { name: 'Federico Zivolo', email: 'federico.zivolo@gmail.com' },
+544 silly install resolved     funding:
+544 silly install resolved      { type: 'opencollective',
+544 silly install resolved        url: 'https://opencollective.com/popperjs' },
+544 silly install resolved     contributors: [ [Object] ],
+544 silly install resolved     license: 'MIT',
+544 silly install resolved     bugs: { url: 'https://github.com/FezVrasta/popper.js/issues' },
+544 silly install resolved     keywords:
+544 silly install resolved      [ 'popperjs',
+544 silly install resolved        'component',
+544 silly install resolved        'drop',
+544 silly install resolved        'tooltip',
+544 silly install resolved        'popover',
+544 silly install resolved        'position',
+544 silly install resolved        'attached' ],
+544 silly install resolved     main: 'dist/umd/popper.js',
+544 silly install resolved     module: 'dist/esm/popper.js',
+544 silly install resolved     unpkg: 'dist/umd/popper.min.js',
+544 silly install resolved     types: 'index.d.ts',
+544 silly install resolved     sideEffects: false,
+544 silly install resolved     scripts:
+544 silly install resolved      { prepare: 'yarn build',
+544 silly install resolved        postpublish: 'nuget-publish && ./bower-publish.sh',
+544 silly install resolved        prebuild: 'yarn lint',
+544 silly install resolved        pretest: 'yarn lint',
+544 silly install resolved        build: 'node bundle.js && cp index.js.flow dist/umd/popper.js.flow',
+544 silly install resolved        lint: 'eslint .',
+544 silly install resolved        test: 'popper-karma',
+544 silly install resolved        posttest: 'tsc --project tests/types/tsconfig.json',
+544 silly install resolved        'test:dev': 'BROWSERS=Chrome NODE_ENV=development yarn test',
+544 silly install resolved        coverage: 'COVERAGE=true yarn test' },
+544 silly install resolved     devDependencies:
+544 silly install resolved      { '@popperjs/bundle': '^1.0.2',
+544 silly install resolved        '@popperjs/eslint-config-popper': '^1.0.0',
+544 silly install resolved        '@popperjs/test': '^1.0.0',
+544 silly install resolved        '@popperjs/test-utils': '^1.0.0',
+544 silly install resolved        eslint: '^4.1.1',
+544 silly install resolved        'nuget-publish': '^1.0.3',
+544 silly install resolved        typescript: '^2.7.1' },
+544 silly install resolved     resolutions: { micromatch: '^3.0.3' },
+544 silly install resolved     _id: 'popper.js@1.16.1',
+544 silly install resolved     dist:
+544 silly install resolved      { shasum: '2a223cb3dc7b6213d740e40372be40de43e65b1b',
+544 silly install resolved        integrity: 'sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==',
+544 silly install resolved        tarball: 'https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz',
+544 silly install resolved        fileCount: 100,
+544 silly install resolved        unpackedSize: 1723584,
+544 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeKGnlCRA9TVsSAnZWagAAEesQAJ4wDumwRJ+kxfD0TfYW\nni3cLojATbJFgOJtdd6tBhHxqs5CBfoD6QY3OVp7hwbyeLCrU1u1PHKUUVBd\ncJB8cxY+Wk4wfWIvv+XjfmqrVnMxt47j7v9W7tPZUOn7jl4fGmDwzEJ1lMjY\n8dPfheGN5wo7oCAhq/iw3sE3YpyBFYYc6Lv52PXCHWd7NEpAbFz5Et6C9H39\nE9W8xWnwczhPburXwWzLiDn6pLOD/Ra30SeNGPwoyzsnpDLrBy8IRhiIqezX\nBhWgDJm07U5vYCL/W8ZR0mY1X3c5Y6KRoi5ggq/W6P4jBBNzCgtqr5VhegqV\nZYrKL1LPOg5YTgo+D6IZrUqsAR5mikmYB6lq/WtM4Yxqw5noQCNXVDHAusVw\nAJQj28FEcXAMAiLKa7AzVYes++JqLCbkYDH1tL2E3Fg4jehZQr56EZxgmmO7\n6ngDDc5rzw6g73zQxcLQs7IqHrn1qzrYFwpS2Gm/0AkZD0Aji9iyawwrDazK\nI/ijX75py7kDoek54prO+q9GXdv5iczcA7wtXPMJQs6pUB4q58qLi3YDE3UL\nDCV6pHXmvlrR+sRpy/Z9Zh2emEVegY4scganQPhU0Id1SpueCzQXo08joq/V\nw5sDQKTd8sF8fdkGDQzTxkZsE6KJVNrYRzRLQ+WnFEwhCQ72obXx5BbA5DT5\nwWpl\r\n=wp7S\r\n-----END PGP SIGNATURE-----\r\n' },
+544 silly install resolved     maintainers: [ [Object] ],
+544 silly install resolved     _npmUser: { name: 'fezvrasta', email: 'federico.zivolo@gmail.com' },
+544 silly install resolved     directories: {},
+544 silly install resolved     _npmOperationalInternal:
+544 silly install resolved      { host: 's3://npm-registry-packages',
+544 silly install resolved        tmp: 'tmp/popper.js_1.16.1_1579706853216_0.6316713808175527' },
+544 silly install resolved     _hasShrinkwrap: false,
+544 silly install resolved     deprecated: 'You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1',
+544 silly install resolved     _shasum: '2a223cb3dc7b6213d740e40372be40de43e65b1b',
+544 silly install resolved     _resolved: 'https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz',
+544 silly install resolved     _from: 'popper.js@>=1.16.1 <2.0.0',
+544 silly install resolved     readme: 'ERROR: No README data found!' },
+544 silly install resolved   { name: 'jquery',
+544 silly install resolved     title: 'jQuery',
+544 silly install resolved     description: 'JavaScript library for DOM operations',
+544 silly install resolved     version: '3.5.1',
+544 silly install resolved     main: 'dist/jquery.js',
+544 silly install resolved     homepage: 'https://jquery.com',
+544 silly install resolved     author:
+544 silly install resolved      { name: 'JS Foundation and other contributors',
+544 silly install resolved        url: 'https://github.com/jquery/jquery/blob/3.5.1/AUTHORS.txt' },
+544 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jquery/jquery.git' },
+544 silly install resolved     keywords: [ 'jquery', 'javascript', 'browser', 'library' ],
+544 silly install resolved     bugs: { url: 'https://github.com/jquery/jquery/issues' },
+544 silly install resolved     license: 'MIT',
+544 silly install resolved     dependencies: {},
+544 silly install resolved     devDependencies:
+544 silly install resolved      { '@babel/core': '7.3.3',
+544 silly install resolved        '@babel/plugin-transform-for-of': '7.2.0',
+544 silly install resolved        commitplease: '3.2.0',
+544 silly install resolved        'core-js': '2.6.5',
+544 silly install resolved        'eslint-config-jquery': '2.0.0',
+544 silly install resolved        grunt: '1.0.3',
+544 silly install resolved        'grunt-babel': '8.0.0',
+544 silly install resolved        'grunt-cli': '1.3.2',
+544 silly install resolved        'grunt-compare-size': '0.4.2',
+544 silly install resolved        'grunt-contrib-uglify': '3.4.0',
+544 silly install resolved        'grunt-contrib-watch': '1.1.0',
+544 silly install resolved        'grunt-eslint': '22.0.0',
+544 silly install resolved        'grunt-git-authors': '3.2.0',
+544 silly install resolved        'grunt-jsonlint': '1.1.0',
+544 silly install resolved        'grunt-karma': '3.0.1',
+544 silly install resolved        'grunt-newer': '1.3.0',
+544 silly install resolved        'grunt-npmcopy': '0.1.0',
+544 silly install resolved        'gzip-js': '0.3.2',
+544 silly install resolved        husky: '1.3.1',
+544 silly install resolved        insight: '0.10.1',
+544 silly install resolved        jsdom: '13.2.0',
+544 silly install resolved        karma: '4.0.1',
+544 silly install resolved        'karma-browserstack-launcher': '1.4.0',
+544 silly install resolved        'karma-chrome-launcher': '2.2.0',
+544 silly install resolved        'karma-firefox-launcher': '1.1.0',
+544 silly install resolved        'karma-ie-launcher': '1.0.0',
+544 silly install resolved        'karma-jsdom-launcher': '7.1.0',
+544 silly install resolved        'karma-qunit': '3.0.0',
+544 silly install resolved        'load-grunt-tasks': '4.0.0',
+544 silly install resolved        'native-promise-only': '0.8.1',
+544 silly install resolved        'promises-aplus-tests': '2.1.2',
+544 silly install resolved        q: '1.5.1',
+544 silly install resolved        qunit: '2.9.2',
+544 silly install resolved        'raw-body': '2.3.3',
+544 silly install resolved        requirejs: '2.3.6',
+544 silly install resolved        sinon: '2.3.7',
+544 silly install resolved        sizzle: '2.3.5',
+544 silly install resolved        'strip-json-comments': '2.0.1',
+544 silly install resolved        testswarm: '1.1.0',
+544 silly install resolved        'uglify-js': '3.4.7' },
+544 silly install resolved     scripts:
+544 silly install resolved      { build: 'npm install && grunt',
+544 silly install resolved        start: 'grunt watch',
+544 silly install resolved        'test:browserless': 'grunt && grunt test:slow',
+544 silly install resolved        'test:browser': 'grunt && grunt karma:main',
+544 silly install resolved        'test:amd': 'grunt && grunt karma:amd',
+544 silly install resolved        'test:no-deprecated': 'grunt test:prepare && grunt custom:-deprecated && grunt karma:main',
+544 silly install resolved        'test:no-sizzle': 'grunt test:prepare && grunt custom:-sizzle && grunt karma:main',
+544 silly install resolved        'test:slim': 'grunt test:prepare && grunt custom:slim && grunt karma:main',
+544 silly install resolved        test: 'npm run test:slim && npm run test:no-deprecated && npm run test:no-sizzle && grunt && grunt test:slow && grunt karma:main && grunt karma:amd',
+544 silly install resolved        jenkins: 'npm run test:browserless' },
+544 silly install resolved     commitplease:
+544 silly install resolved      { nohook: true,
+544 silly install resolved        components: [Object],
+544 silly install resolved        markerPattern: '^((clos|fix|resolv)(e[sd]|ing))|^(refs?)',
+544 silly install resolved        ticketPattern: '^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|^(Refs? [^#])' },
+544 silly install resolved     husky: { hooks: [Object] },
+544 silly install resolved     gitHead: '4c0e4becb8263bb5b3e6dadc448d8e7305ef8215',
+544 silly install resolved     _id: 'jquery@3.5.1',
+544 silly install resolved     _nodeVersion: '12.16.1',
+544 silly install resolved     _npmVersion: '6.13.4',
+544 silly install resolved     dist:
+544 silly install resolved      { integrity: 'sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==',
+544 silly install resolved        shasum: 'd7b4d08e1bfdb86ad2f1a3d039ea17304717abb5',
+544 silly install resolved        tarball: 'https://registry.npmjs.org/jquery/-/jquery-3.5.1.tgz',
+544 silly install resolved        fileCount: 123,
+544 silly install resolved        unpackedSize: 1315593,
+544 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJesJwhCRA9TVsSAnZWagAA+SIQAI9RCw96kNZnbA/ONf5x\n9JqCbsyBPH8ZV76Q/lq/OOJgTQqSWirb2iK2BCrPbcEdzQ9WUKrmmiFSGOLH\ne1yQW4gi4+MzL+prjipb/GKZJINgr0I4/Rd0TAMuVapqNFWc01phXOWH9zk6\n9t0lYWlpa9RA07Dn+2lTvU3sGkzEfAoamBhRIL3L9LVMTDXFyQXU2FqNKqCG\nLyEyomvO7juax8kQaRsl6pWZ9VAkXIvRMNI3fvWqFaGMaShK0hP0woymcZER\nlk6mW+TsYeU4cEBYWLNo2ei+NkLYAT7mo4Yt6PudZ7hCWLZV0OHHs5K9m5m5\nS6ppOPUCPAGi0G2ubxi8fw6vbhlLD7JWmzWksF0dE6+qQv+e9VHEhwchjUXR\n+RFLqZOEjevhf/RE0wbmjYurw8QIxgnUjXzKbgHdcTrOutBcW5Kv3xavq0v2\nJNnnuvDolqAbWBBUg0vNKsedduudLgzXXS2OnpLNGn3ctKoEIVV79G6OWBJB\noX1lFAimK9uT/CF4YSeUMY7ghZR4RRLrY0XcNRCLAMh17NThNpIyZk+hCEbQ\nHO9FOD+yhtz4sF5tz/RrSdHkt5hl5J/g9H6eTiPmbKydchdKd/V8RpAObVs/\nTg2LEk7UHh/l5UXK2IJfk+WLwd86g1rwxsJ48MLoGutTroR8MRrQ/78Htoij\nk+WY\r\n=XCQe\r\n-----END PGP SIGNATURE-----\r\n' },
+544 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+544 silly install resolved     _npmUser: { name: 'timmywil', email: '4timmywil@gmail.com' },
+544 silly install resolved     directories: {},
+544 silly install resolved     _npmOperationalInternal:
+544 silly install resolved      { host: 's3://npm-registry-packages',
+544 silly install resolved        tmp: 'tmp/jquery_3.5.1_1588632608615_0.33880236700918' },
+544 silly install resolved     _hasShrinkwrap: false,
+544 silly install resolved     _shasum: 'd7b4d08e1bfdb86ad2f1a3d039ea17304717abb5',
+544 silly install resolved     _resolved: 'https://registry.npmjs.org/jquery/-/jquery-3.5.1.tgz',
+544 silly install resolved     _from: 'jquery@>=1.9.1 <4.0.0' } ]
+545 info install popper.js@1.16.1 into /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass
+546 info install jquery@3.5.1 into /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass
+547 info installOne popper.js@1.16.1
+548 verbose installOne of popper.js to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass not in flight; installing
+549 info installOne jquery@3.5.1
+550 verbose installOne of jquery to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass not in flight; installing
+551 verbose lock using /Users/workstationthree/.npm/_locks/popper-js-06d1f9cfe3806a10.lock for /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+552 silly install write writing popper.js 1.16.1 to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+553 silly cache addNamed cb popper.js@1.16.1
+554 verbose unbuild node_modules/popper.js
+555 verbose lock using /Users/workstationthree/.npm/_locks/jquery-1e5f37101ba0558f.lock for /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+556 silly install write writing jquery 3.5.1 to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+557 verbose gentlyRm vacuuming /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+558 verbose tar unpack /Users/workstationthree/.npm/popper.js/1.16.1/package.tgz
+559 verbose tar unpacking to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+560 verbose gentlyRm vacuuming /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+561 silly gunzTarPerm modes [ '755', '644' ]
+562 silly cache addNamed cb jquery@3.5.1
+563 verbose unbuild node_modules/jquery
+564 verbose gentlyRm vacuuming /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+565 verbose tar unpack /Users/workstationthree/.npm/jquery/3.5.1/package.tgz
+566 verbose tar unpacking to /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+567 verbose gentlyRm vacuuming /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+568 silly gunzTarPerm modes [ '755', '644' ]
+569 silly gunzTarPerm extractEntry
+570 silly gunzTarPerm extractEntry README.md
+571 silly gunzTarPerm extractEntry dist
+572 silly gunzTarPerm extractEntry index.d.ts
+573 silly gunzTarPerm extractEntry src/manipulation/_evalUrl.js
+574 silly gunzTarPerm extractEntry index.js.flow
+575 silly gunzTarPerm extractEntry src/data/var/acceptData.js
+576 silly gunzTarPerm extractEntry src/core/access.js
+577 silly gunzTarPerm extractEntry src/css/addGetHookIf.js
+578 silly gunzTarPerm extractEntry src/css/adjustCSS.js
+579 silly gunzTarPerm extractEntry package.json
+580 silly gunzTarPerm extractEntry src
+581 silly gunzTarPerm extractEntry dist/esm
+582 silly gunzTarPerm extractEntry src/deprecated/ajax-event-alias.js
+583 silly gunzTarPerm extractEntry src/ajax.js
+584 silly gunzTarPerm extractEntry dist/popper-utils.js
+585 silly gunzTarPerm extractEntry dist/popper-utils.js.map
+586 silly gunzTarPerm extractEntry src/exports/amd.js
+587 silly gunzTarPerm extractEntry dist/popper-utils.min.js
+588 silly gunzTarPerm extractEntry dist/popper-utils.min.js.map
+589 silly gunzTarPerm extractEntry src/effects/animatedSelector.js
+590 silly gunzTarPerm extractEntry src/var/arr.js
+591 silly gunzTarPerm extractEntry dist/popper.js
+592 silly gunzTarPerm extractEntry dist/popper.js.map
+593 silly gunzTarPerm extractEntry src/attributes/attr.js
+594 silly gunzTarPerm extractEntry src/attributes.js
+595 silly gunzTarPerm extractEntry dist/popper.min.js
+596 silly gunzTarPerm extractEntry src/manipulation/buildFragment.js
+597 silly gunzTarPerm extractEntry src/callbacks.js
+598 silly gunzTarPerm extractEntry src/core/camelCase.js
+599 silly gunzTarPerm extractEntry dist/popper.min.js.map
+600 silly gunzTarPerm extractEntry src/var/class2type.js
+601 silly gunzTarPerm extractEntry src/attributes/classes.js
+602 silly gunzTarPerm extractEntry src/core.js
+603 silly gunzTarPerm extractEntry dist/umd
+604 silly gunzTarPerm extractEntry src/css.js
+605 silly gunzTarPerm extractEntry src/css/var/cssExpand.js
+606 silly gunzTarPerm extractEntry src/index.js
+607 silly gunzTarPerm extractEntry src/methods
+608 silly gunzTarPerm extractEntry src/modifiers
+609 silly gunzTarPerm extractEntry src/css/curCSS.js
+610 silly gunzTarPerm extractEntry src/data.js
+611 silly gunzTarPerm extractEntry src/data/Data.js
+612 silly gunzTarPerm extractEntry src/data/var/dataPriv.js
+613 silly gunzTarPerm extractEntry src/utils
+614 silly gunzTarPerm extractEntry src/data/var/dataUser.js
+615 silly gunzTarPerm extractEntry src/deferred.js
+616 silly gunzTarPerm extractEntry src/queue/delay.js
+617 silly gunzTarPerm extractEntry src/deprecated.js
+618 silly gunzTarPerm extractEntry dist/esm/popper-utils.js
+619 silly gunzTarPerm extractEntry src/dimensions.js
+620 silly gunzTarPerm extractEntry src/traversing/var/dir.js
+621 silly gunzTarPerm extractEntry dist/esm/popper-utils.js.map
+622 silly gunzTarPerm extractEntry src/var/document.js
+623 silly gunzTarPerm extractEntry src/var/documentElement.js
+624 silly gunzTarPerm extractEntry src/core/DOMEval.js
+625 silly gunzTarPerm extractEntry src/effects.js
+626 silly gunzTarPerm extractEntry src/deprecated/event.js
+627 silly gunzTarPerm extractEntry src/event.js
+628 silly gunzTarPerm extractEntry src/deferred/exceptionHook.js
+629 silly gunzTarPerm extractEntry src/css/finalPropName.js
+630 silly gunzTarPerm extractEntry dist/esm/popper-utils.min.js
+631 silly gunzTarPerm extractEntry dist/esm/popper-utils.min.js.map
+632 silly gunzTarPerm extractEntry src/traversing/findFilter.js
+633 silly gunzTarPerm extractEntry src/var/flat.js
+634 silly gunzTarPerm extractEntry dist/esm/popper.js
+635 silly gunzTarPerm extractEntry src/var/fnToString.js
+636 silly gunzTarPerm extractEntry src/event/focusin.js
+637 silly gunzTarPerm extractEntry src/manipulation/getAll.js
+638 silly gunzTarPerm extractEntry src/var/getProto.js
+639 silly gunzTarPerm extractEntry src/css/var/getStyles.js
+640 silly gunzTarPerm extractEntry src/exports/global.js
+641 silly gunzTarPerm extractEntry dist/esm/popper.js.map
+642 silly gunzTarPerm extractEntry src/var/hasOwn.js
+643 silly gunzTarPerm extractEntry src/css/hiddenVisibleSelectors.js
+644 silly gunzTarPerm extractEntry src/var/indexOf.js
+645 silly gunzTarPerm extractEntry src/core/init.js
+646 silly gunzTarPerm extractEntry src/core/isAttached.js
+647 silly gunzTarPerm extractEntry src/var/isFunction.js
+648 silly gunzTarPerm extractEntry dist/esm/popper.min.js
+649 silly gunzTarPerm extractEntry dist/esm/popper.min.js.map
+650 silly gunzTarPerm extractEntry src/css/var/isHiddenWithinTree.js
+651 silly gunzTarPerm extractEntry src/var/isWindow.js
+652 silly gunzTarPerm extractEntry dist/umd/popper-utils.js
+653 silly gunzTarPerm extractEntry dist/jquery.js
+654 silly gunzTarPerm extractEntry src/jquery.js
+655 silly gunzTarPerm extractEntry dist/jquery.min.js
+656 silly gunzTarPerm extractEntry dist/jquery.slim.js
+657 silly gunzTarPerm extractEntry dist/umd/popper-utils.js.map
+658 silly gunzTarPerm extractEntry dist/jquery.slim.min.js
+659 silly gunzTarPerm extractEntry src/ajax/jsonp.js
+660 silly gunzTarPerm extractEntry src/ajax/load.js
+661 silly gunzTarPerm extractEntry src/ajax/var/location.js
+662 silly gunzTarPerm extractEntry src/manipulation.js
+663 silly gunzTarPerm extractEntry src/core/nodeName.js
+664 silly gunzTarPerm extractEntry dist/umd/popper-utils.min.js
+665 silly gunzTarPerm extractEntry src/ajax/var/nonce.js
+666 silly gunzTarPerm extractEntry src/var/ObjectFunctionString.js
+667 silly gunzTarPerm extractEntry src/offset.js
+668 silly gunzTarPerm extractEntry src/core/parseHTML.js
+669 silly gunzTarPerm extractEntry src/core/parseXML.js
+670 silly gunzTarPerm extractEntry dist/umd/popper-utils.min.js.map
+671 silly gunzTarPerm extractEntry src/var/pnum.js
+672 silly gunzTarPerm extractEntry src/attributes/prop.js
+673 silly gunzTarPerm extractEntry src/var/push.js
+674 silly gunzTarPerm extractEntry dist/umd/popper.js
+675 silly gunzTarPerm extractEntry dist/umd/popper.js.flow
+676 silly gunzTarPerm extractEntry dist/umd/popper.js.map
+677 silly gunzTarPerm extractEntry src/queue.js
+678 silly gunzTarPerm extractEntry src/css/var/rboxStyle.js
+679 silly gunzTarPerm extractEntry src/var/rcheckableType.js
+680 silly gunzTarPerm extractEntry src/var/rcssNum.js
+681 silly gunzTarPerm extractEntry dist/umd/popper.min.js
+682 silly gunzTarPerm extractEntry src/core/ready-no-deferred.js
+683 silly gunzTarPerm extractEntry src/core/ready.js
+684 silly gunzTarPerm extractEntry dist/umd/popper.min.js.map
+685 silly gunzTarPerm extractEntry src/core/readyException.js
+686 silly gunzTarPerm extractEntry src/traversing/var/rneedsContext.js
+687 silly gunzTarPerm extractEntry src/var/rnothtmlwhite.js
+688 silly gunzTarPerm extractEntry src/css/var/rnumnonpx.js
+689 silly gunzTarPerm extractEntry src/methods/defaults.js
+690 silly gunzTarPerm extractEntry src/ajax/var/rquery.js
+691 silly gunzTarPerm extractEntry src/manipulation/var/rscriptType.js
+692 silly gunzTarPerm extractEntry src/core/var/rsingleTag.js
+693 silly gunzTarPerm extractEntry src/manipulation/var/rtagName.js
+694 silly gunzTarPerm extractEntry src/methods/destroy.js
+695 silly gunzTarPerm extractEntry src/ajax/script.js
+696 silly gunzTarPerm extractEntry src/selector-native.js
+697 silly gunzTarPerm extractEntry src/selector-sizzle.js
+698 silly gunzTarPerm extractEntry src/selector.js
+699 silly gunzTarPerm extractEntry src/methods/disableEventListeners.js
+700 silly gunzTarPerm extractEntry src/serialize.js
+701 silly gunzTarPerm extractEntry src/manipulation/setGlobalEval.js
+702 silly gunzTarPerm extractEntry src/css/showHide.js
+703 silly gunzTarPerm extractEntry src/traversing/var/siblings.js
+704 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.js
+705 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.js
+706 silly gunzTarPerm extractEntry src/methods/enableEventListeners.js
+707 silly gunzTarPerm extractEntry src/var/slice.js
+708 silly gunzTarPerm extractEntry src/core/stripAndCollapse.js
+709 silly gunzTarPerm extractEntry src/attributes/support.js
+710 silly gunzTarPerm extractEntry src/core/support.js
+711 silly gunzTarPerm extractEntry src/methods/placements.js
+712 silly gunzTarPerm extractEntry src/css/support.js
+713 silly gunzTarPerm extractEntry src/event/support.js
+714 silly gunzTarPerm extractEntry src/manipulation/support.js
+715 silly gunzTarPerm extractEntry src/var/support.js
+716 silly gunzTarPerm extractEntry src/css/var/swap.js
+717 silly gunzTarPerm extractEntry src/var/toString.js
+718 silly gunzTarPerm extractEntry src/core/toType.js
+719 silly gunzTarPerm extractEntry src/traversing.js
+720 silly gunzTarPerm extractEntry src/event/trigger.js
+721 silly gunzTarPerm extractEntry src/effects/Tween.js
+722 silly gunzTarPerm extractEntry src/attributes/val.js
+723 silly gunzTarPerm extractEntry src/wrap.js
+724 silly gunzTarPerm extractEntry src/manipulation/wrapMap.js
+725 silly gunzTarPerm extractEntry src/ajax/xhr.js
+726 silly gunzTarPerm extractEntry bower.json
+727 silly gunzTarPerm extractEntry src/methods/update.js
+728 silly gunzTarPerm extractEntry src/modifiers/applyStyle.js
+729 silly gunzTarPerm extractEntry package.json
+730 silly gunzTarPerm extractEntry src/modifiers/arrow.js
+731 silly gunzTarPerm extractEntry dist/jquery.min.map
+732 silly gunzTarPerm extractEntry src/modifiers/computeStyle.js
+733 silly gunzTarPerm extractEntry src/modifiers/flip.js
+734 silly gunzTarPerm extractEntry src/modifiers/hide.js
+735 silly gunzTarPerm extractEntry src/modifiers/index.js
+736 silly gunzTarPerm extractEntry dist/jquery.slim.min.map
+737 silly gunzTarPerm extractEntry src/modifiers/inner.js
+738 silly gunzTarPerm extractEntry src/modifiers/keepTogether.js
+739 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.map
+740 silly gunzTarPerm extractEntry src/modifiers/offset.js
+741 silly gunzTarPerm extractEntry README.md
+742 silly gunzTarPerm extractEntry src/modifiers/preventOverflow.js
+743 silly gunzTarPerm extractEntry AUTHORS.txt
+744 silly gunzTarPerm extractEntry src/modifiers/shift.js
+745 silly gunzTarPerm extractEntry external/sizzle/LICENSE.txt
+746 silly gunzTarPerm extractEntry src/utils/clockwise.js
+747 silly gunzTarPerm extractEntry LICENSE.txt
+748 silly gunzTarPerm extractEntry src/utils/computeAutoPlacement.js
+749 silly gunzTarPerm extractEntry src/utils/debounce.js
+750 silly gunzTarPerm extractEntry src/utils/find.js
+751 silly gunzTarPerm extractEntry src/utils/findCommonOffsetParent.js
+752 silly gunzTarPerm extractEntry src/utils/findIndex.js
+753 silly gunzTarPerm extractEntry src/utils/getBordersSize.js
+754 silly gunzTarPerm extractEntry src/utils/getBoundaries.js
+755 silly gunzTarPerm extractEntry src/utils/getBoundingClientRect.js
+756 silly gunzTarPerm extractEntry src/utils/getClientRect.js
+757 silly gunzTarPerm extractEntry src/utils/getFixedPositionOffsetParent.js
+758 silly gunzTarPerm extractEntry src/utils/getOffsetParent.js
+759 silly gunzTarPerm extractEntry src/utils/getOffsetRect.js
+760 silly gunzTarPerm extractEntry src/utils/getOffsetRectRelativeToArbitraryNode.js
+761 silly gunzTarPerm extractEntry src/utils/getOppositePlacement.js
+762 silly gunzTarPerm extractEntry src/utils/getOppositeVariation.js
+763 silly gunzTarPerm extractEntry src/utils/getOuterSizes.js
+764 silly gunzTarPerm extractEntry src/utils/getParentNode.js
+765 silly gunzTarPerm extractEntry src/utils/getPopperOffsets.js
+766 silly gunzTarPerm extractEntry src/utils/getReferenceNode.js
+767 silly gunzTarPerm extractEntry src/utils/getReferenceOffsets.js
+768 silly gunzTarPerm extractEntry src/utils/getRoot.js
+769 silly gunzTarPerm extractEntry src/utils/getRoundedOffsets.js
+770 silly gunzTarPerm extractEntry src/utils/getScroll.js
+771 silly gunzTarPerm extractEntry src/utils/getScrollParent.js
+772 silly gunzTarPerm extractEntry src/utils/getStyleComputedProperty.js
+773 silly gunzTarPerm extractEntry src/utils/getSupportedPropertyName.js
+774 silly gunzTarPerm extractEntry src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js
+775 silly gunzTarPerm extractEntry src/utils/getWindow.js
+776 silly gunzTarPerm extractEntry src/utils/getWindowSizes.js
+777 silly gunzTarPerm extractEntry src/utils/includeScroll.js
+778 silly gunzTarPerm extractEntry src/utils/index.js
+779 silly gunzTarPerm extractEntry src/utils/isBrowser.js
+780 silly gunzTarPerm extractEntry src/utils/isFixed.js
+781 silly gunzTarPerm extractEntry src/utils/isFunction.js
+782 silly gunzTarPerm extractEntry src/utils/isIE.js
+783 silly gunzTarPerm extractEntry src/utils/isModifierEnabled.js
+784 silly gunzTarPerm extractEntry src/utils/isModifierRequired.js
+785 silly gunzTarPerm extractEntry src/utils/isNumeric.js
+786 silly gunzTarPerm extractEntry src/utils/isOffsetContainer.js
+787 silly gunzTarPerm extractEntry src/utils/removeEventListeners.js
+788 silly gunzTarPerm extractEntry src/utils/runModifiers.js
+789 silly gunzTarPerm extractEntry src/utils/setAttributes.js
+790 silly gunzTarPerm extractEntry src/utils/setStyles.js
+791 silly gunzTarPerm extractEntry src/utils/setupEventListeners.js
+792 info preinstall jquery@3.5.1
+793 silly install resolved []
+794 verbose about to build /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+795 info build /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+796 verbose linkStuff [ false,
+796 verbose linkStuff   false,
+796 verbose linkStuff   false,
+796 verbose linkStuff   '/Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules' ]
+797 info linkStuff jquery@3.5.1
+798 verbose linkBins jquery@3.5.1
+799 verbose linkMans jquery@3.5.1
+800 verbose rebuildBundles jquery@3.5.1
+801 info install jquery@3.5.1
+802 info postinstall jquery@3.5.1
+803 verbose unlock done using /Users/workstationthree/.npm/_locks/jquery-1e5f37101ba0558f.lock for /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/jquery
+804 info preinstall popper.js@1.16.1
+805 silly install resolved []
+806 verbose about to build /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+807 info build /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+808 verbose linkStuff [ false,
+808 verbose linkStuff   false,
+808 verbose linkStuff   false,
+808 verbose linkStuff   '/Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules' ]
+809 info linkStuff popper.js@1.16.1
+810 verbose linkBins popper.js@1.16.1
+811 verbose linkMans popper.js@1.16.1
+812 verbose rebuildBundles popper.js@1.16.1
+813 info install popper.js@1.16.1
+814 info postinstall popper.js@1.16.1
+815 verbose unlock done using /Users/workstationthree/.npm/_locks/popper-js-06d1f9cfe3806a10.lock for /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/popper.js
+816 verbose unlock done using /Users/workstationthree/.npm/_locks/bootstrap-3f2f160c92695a53.lock for /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass/node_modules/bootstrap
+817 verbose stack Error: The package puppeteer-core does not satisfy its siblings' peerDependencies requirements!
+817 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:103:32
+817 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:225:5
+817 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+817 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+817 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+817 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+817 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+817 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+817 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+817 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+818 verbose cwd /Users/workstationthree/Local Sites/artglass/app/public/wp-content/themes/artglass
+819 error Darwin 18.6.0
+820 error argv "node" "/usr/local/bin/npm" "install" "bootstrap"
+821 error node v0.12.0
+822 error npm  v2.5.1
+823 error code EPEERINVALID
+824 error peerinvalid The package puppeteer-core does not satisfy its siblings' peerDependencies requirements!
+824 error peerinvalid Peer jest-puppeteer@4.4.0 wants puppeteer-core@>= 1.5.0 < 3
+825 verbose exit [ 1, true ]

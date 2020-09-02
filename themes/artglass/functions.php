@@ -51,6 +51,7 @@ if ( ! function_exists( 'artglass_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'artglass' ),
+				'menu-2' => esc_html__( 'Secondary (Right)', 'artglass' ),
 			)
 		);
 
@@ -143,6 +144,8 @@ add_action( 'widgets_init', 'artglass_widgets_init' );
  * Enqueue scripts and styles.
  */
 function artglass_scripts() {
+
+    wp_enqueue_style( 'output', get_template_directory_uri() . '/stylesheets/output.css');
 	wp_enqueue_style( 'artglass-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'artglass-style', 'rtl', 'replace' );
 

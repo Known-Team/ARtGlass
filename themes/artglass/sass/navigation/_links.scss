@@ -1,14 +1,18 @@
+img.custom-logo {
+	max-width: 110px;
+}
+
 a {
-	color: $color__link;
+	color: $black;
 
 	&:visited {
-		color: $color__link-visited;
+		color: $dark-gray;
 	}
 
 	&:hover,
 	&:focus,
 	&:active {
-		color: $color__link-hover;
+		color: $lime;
 	}
 
 	&:focus {
