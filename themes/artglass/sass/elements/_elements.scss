@@ -38,3 +38,71 @@ figure {
 	margin-left: 0;
 	margin-right: 0;
 }
+
+
+/* Accordian */
+p.accordion {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
+    padding-right: 75px;
+}
+
+.whiteaccordian {
+	color: $dark-gray;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.limeaccordian {
+	color: white;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.grayaccordian {
+	color: white;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '\2795'; 
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    margin-right: -75px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "\2796"; 
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}

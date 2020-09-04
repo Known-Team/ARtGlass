@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/mko7ndx.css">
+	<script src="https://kit.fontawesome.com/33b1f9d447.js" crossorigin="anonymous"></script>
 
 	<?php wp_head(); ?>
 </head>
@@ -28,42 +29,39 @@
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'artglass' ); ?></a>
-	<header id="masthead" class="site-header">
-		<div class="container-full">
-			<div class="row align-items-center">
+	<header id="masthead" class="site-header bgwhite">
+		<nav id="site-navigation" class="main-navigation">
+			<div class="container-full">
+				<div class="row align-items-center">
 
-				<div class="col-2">
-					<div class="site-branding pt-3">
-						<?php the_custom_logo(); ?>
-					</div><!-- .site-branding -->
-				</div>
+					<div class="col-2">
+						<div class="site-branding pt-3 mb-2 mt-1">
+							<?php the_custom_logo(); ?>
+						</div><!-- .site-branding -->
+					</div>
 
-				<div class="col-8">
-					<nav id="site-navigation" class="main-navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'artglass' ); ?></button>
+					<div class="col-8">
+							<?php
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+									'menu_class'           => 'justify-content-center',
+								)
+							);
+							?>
+					</div>
+
+					<div class="col-2">
 						<?php
-						wp_nav_menu(
-							array(
-								'theme_location' => 'menu-1',
-								'menu_id'        => 'primary-menu',
-								'menu_class'           => 'justify-content-center',
-							)
-						);
-						?>
-
-					</nav><!-- #site-navigation -->
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-2',
+								)
+							);
+							?>
+					</div>
 				</div>
-
-				<div class="col-2">
-					<?php
-						wp_nav_menu(
-							array(
-								'theme_location' => 'menu-2',
-							)
-						);
-						?>
-				</div>
-
-			</div>
+			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->

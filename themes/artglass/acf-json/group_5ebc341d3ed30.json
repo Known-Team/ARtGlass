@@ -3,6 +3,30 @@
     "title": "Our Work",
     "fields": [
         {
+            "key": "field_5f519aa15e15e",
+            "label": "Work Type",
+            "name": "work_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "casestudy": "Case Study",
+                "reel": "Project Reel"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "array",
+            "save_other_choice": 0
+        },
+        {
             "key": "field_5ebc3428ab40b",
             "label": "Client\/Site",
             "name": "work_client",
@@ -41,11 +65,11 @@
             "maxlength": ""
         },
         {
-            "key": "field_5ebc3443ab40e",
-            "label": "Image",
+            "key": "field_5f519a2d34641",
+            "label": "Work Image",
             "name": "work_image",
-            "type": "gallery",
-            "instructions": "First image will be used as featured image",
+            "type": "image",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -53,12 +77,9 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "array",
+            "return_format": "url",
             "preview_size": "medium",
-            "insert": "append",
             "library": "all",
-            "min": "",
-            "max": "",
             "min_width": "",
             "min_height": "",
             "min_size": "",
@@ -120,5 +141,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1589394462
+    "modified": 1599183935
 }

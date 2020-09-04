@@ -1,5 +1,25 @@
+.homebutton {
+	text-align: center;
+	display: inline-block;
+	background-color: $lime;
+	color: $black;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 1s;
+	text-transform: uppercase;
+	&:hover {
+		background-color: white;
+		color: $black;
+	}
+}
+
 img.custom-logo {
 	max-width: 110px;
+	margin-left: 25px;
 }
 
 a {
@@ -22,5 +42,6 @@ a {
 	&:hover,
 	&:active {
 		outline: 0;
+		text-decoration: none;
 	}
 }

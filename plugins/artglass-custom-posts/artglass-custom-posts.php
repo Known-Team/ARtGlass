@@ -62,55 +62,6 @@
   }
   add_action( 'init', 'custom_post_team' );
 
-  function custom_post_faq() {
-    $labels = array(
-      'name'               => _x( 'FAQs', 'post type general name' ),
-      'singular_name'      => _x( 'FAQ', 'post type singular name' ),
-      'add_new'            => _x( 'Add New FAQ', 'work' ),
-      'add_new_item'       => __( 'Add New FAQ' ),
-      'edit_item'          => __( 'Edit FAQ' ),
-      'new_item'           => __( 'New FAQ' ),
-      'all_items'          => __( 'All FAQs' ),
-      'view_item'          => __( 'View FAQ' ),
-      'search_items'       => __( 'Search FAQs' ),
-      'not_found'          => __( 'No items found' ),
-      'not_found_in_trash' => __( 'No items found in the Trash' ), 
-      'menu_name'          => 'FAQs'
-    );
-    $args = array(
-      'labels'        => $labels,
-      'public'        => true,
-      'menu_position' => 7,
-      'has_archive'   => true,
-    );
-    register_post_type( 'faq', $args ); 
-    remove_post_type_support( 'faq', 'editor');
-  }
-  add_action( 'init', 'custom_post_faq' );
-
-
-  function taxonomy_faq() {
-    $labels = array(
-      'name'              => _x( 'FAQ Categories', 'taxonomy general name' ),
-      'singular_name'     => _x( 'FAQ Category', 'taxonomy singular name' ),
-      'search_items'      => __( 'Search FAQ Categories' ),
-      'all_items'         => __( 'All FAQ Categories' ),
-      'parent_item'       => __( 'Parent FAQ Category' ),
-      'parent_item_colon' => __( 'Parent FAQ Category:' ),
-      'edit_item'         => __( 'Edit FAQ Category' ), 
-      'update_item'       => __( 'Update FAQ Category' ),
-      'add_new_item'      => __( 'Add New FAQ Category' ),
-      'new_item_name'     => __( 'New FAQ Category' ),
-      'menu_name'         => __( 'FAQ Categories' ),
-    );
-    $args = array(
-      'labels' => $labels,
-      'hierarchical' => false,
-    );
-    register_taxonomy( 'faq_category', 'faq', $args );
-  }
-  add_action( 'init', 'taxonomy_faq', 0 );
-
   function custom_post_press() {
     $labels = array(
       'name'               => _x( 'Press', 'post type general name' ),
@@ -130,7 +81,7 @@
       'labels'        => $labels,
       'public'        => true,
       'menu_position' => 8,
-      'has_archive'   => true,
+      'has_archive'   => false,
     );
     register_post_type( 'press', $args ); 
     remove_post_type_support( 'press', 'editor');

@@ -1,5 +1,22 @@
+.bgwhite {
+	background-color: white !important;	
+}
+
 .site-header {
 	box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.04);	
+}
+
+#mega-menu-wrap-menu-2 .mega-menu-toggle .mega-toggle-blocks-right .mega-toggle-block {
+	margin-right: 25px;
+}
+
+#mega-menu-wrap-menu-2 .mega-menu-toggle + #mega-menu-menu-2 {
+	margin-top: 90px;
+}
+@media only screen and (max-width: 1000px) {
+	#mega-menu-wrap-menu-2 .mega-menu-toggle.mega-menu-open + #mega-menu-menu-2 {
+		margin-top: 0;
+	}
 }
 
 #mega-menu-wrap-menu-2 .mega-menu-toggle .mega-toggle-blocks-right .mega-toggle-block {
@@ -19,6 +36,9 @@
 .main-navigation {
 	display: block;
 	width: 100%;
+	position: relative;
+	z-index: 500;
+	background-color: white;
 
 	ul {
 		display: none;
@@ -135,5 +155,11 @@
 	.nav-next {
 		text-align: end;
 		flex: 1 0 50%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#mega-menu-wrap-menu-1 {
+		display: none;	
 	}
 }
